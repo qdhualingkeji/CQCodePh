@@ -66,7 +66,7 @@ $("#swiper-wrapper").css("height",sww*633/1900+"px");
 	  </div>
   </div>
 
-	<div style="width:400px;height:100px;line-height:100px;text-align:center;font-size: 35px;color: #00a3ff;background-color: transparent;border: solid 1px #00a3ff;margin:30px auto 0;border-radius: 3px;">
+	<div style="width:300px;height:60px;line-height:60px;text-align:center;color: #00a3ff;background-color: transparent;border: solid 1px #00a3ff;margin:30px auto 0;border-radius: 3px;">
 		查看更多功能介绍
 	</div>
 
@@ -75,18 +75,18 @@ $("#swiper-wrapper").css("height",sww*633/1900+"px");
 		<div style="width:936px;height:422px;margin:30px auto 0;">
 			<div style="width:500px;height:300px;">
 				<div>免费创建</div>
-				<div>各类二维码均能免费生成，生成的二维码长期有效</div>
-				<div>丰富组件</div>
-				<div>图片、文字、音视频、文件、网址、表单、联系方式等十几种组件</div>
-				<div>表单功能</div>
-				<div>轻松实现签到、报名等信息收集，低成本满足巡查等管理场景</div>
-				<div>批量生成</div>
-				<div>让你简单高效生成大量同类二维码，减少重复工作</div>
-				<div>行业模版</div>
+				<div style="margin-top:8px;">各类二维码均能免费生成，生成的二维码长期有效</div>
+				<div style="margin-top:20px;">丰富组件</div>
+				<div style="margin-top:8px;">图片、文字、音视频、文件、网址、表单、联系方式等十几种组件</div>
+				<div style="margin-top:20px;">表单功能</div>
+				<div style="margin-top:8px;">轻松实现签到、报名等信息收集，低成本满足巡查等管理场景</div>
+				<div style="margin-top:20px;">批量生成</div>
+				<div style="margin-top:8px;">让你简单高效生成大量同类二维码，减少重复工作</div>
+				<div style="margin-top:20px;">行业模版</div>
 				<div>常见行业模板免费套用，只需3步即可生成属于自己的二维码</div>
 			</div>
 			<div style="width:436px;height:422px;margin-top:-300px;margin-left:500px;">
-				<img src="static/images/products/create-easy-code-left@2x_5446a29.png" style="width:120px;height:422px;"/>
+				<img src="static/images/products/create-easy-code-left@2x_5446a29.png" style="width:102px;height:360px;"/>
 				<img src="static/images/products/create-easy-code-right-top@2x_c8ad3fd.png" alt="" style="width:316px;height:128px;margin-top: 35px;position: absolute;">
 				<img src="static/images/products/create-easy-code-right-bottom@2x_2ad4f5b.png" alt="" style="width:316px;height:168px;margin-top: 182px;position: absolute;">
 			</div>
@@ -105,11 +105,11 @@ $("#swiper-wrapper").css("height",sww*633/1900+"px");
 		<div style="width:936px;height:300px;margin:30px auto 0;">
 			<div style="width:500px;height:300px;">
 				<div>二维码图案不变</div>
-				<div>已生成的二维码修改内容，扫码同步更新，避免内容修改重复打印，节约印刷成本</div>
-				<div>二维码设置</div>
-				<div>提供有效期、指定扫码人员、扫码打开方式等设置，让你的二维码内容更安全 </div>
-				<div>后台管理</div>
-				<div>登录辰麒，即可对已生成的二维码可进行查看、再次修改、删除、统计等统一管理</div>
+				<div style="margin-top:8px;">已生成的二维码修改内容，扫码同步更新，避免内容修改重复打印，节约印刷成本</div>
+				<div style="margin-top:20px;">二维码设置</div>
+				<div style="margin-top:8px;">提供有效期、指定扫码人员、扫码打开方式等设置，让你的二维码内容更安全 </div>
+				<div style="margin-top:20px;">后台管理</div>
+				<div style="margin-top:8px;">登录辰麒，即可对已生成的二维码可进行查看、再次修改、删除、统计等统一管理</div>
 			</div>
 			<div style="width:436px;height:282px;margin-top:-300px;margin-left:500px;">
 				<img src="static/images/products/product-control@2x_9ea8875.png" alt="" style="width: 100%;height:100%;">
@@ -189,24 +189,24 @@ $("#swiper-wrapper").css("height",sww*633/1900+"px");
 		</div>
 		<div style="width:100%;text-align:center;font-size:30px;margin-top:30px;">超过百万用户都在使用辰麒二维码</div>
 		<div style="width:860px;margin:20px auto 30px;">
-			<img class="img1 lfyl_img" src="qlqrcode_files/images/b1ae4b03-1d4d-4258-88fd-f2594ace25ed.png" alt="" style="width:200px;height:46px;">
-			<img class="img1 lprhy_img" src="qlqrcode_files/images/zS_YRPEER4eVSoqJYmxE_A.png" alt="" style="width:200px;height:50px;">
+			<img class="img1 lfyl_img" src="qlqrcode_files/images/b1ae4b03-1d4d-4258-88fd-f2594ace25ed.png" alt="" style="width:200px;height:46px;margin-left: -20px;">
+			<img class="img1 lprhy_img" src="qlqrcode_files/images/zS_YRPEER4eVSoqJYmxE_A.png" alt="" style="width:200px;height:50px;margin-left: 30px;">
 			<img class="img1 lwzy_img" src="qlqrcode_files/images/3BcLkB7BTUmHuD1fWIY3Ug.png" alt="" style="width:200px;height:56px;">
-			<img class="img1 slyt_img" src="qlqrcode_files/images/shengliyoutian1.jpg" alt="" style="width:200px;height:41px;">
-			<img class="img1 dthlj_img" src="qlqrcode_files/images/IVTJYC15S_miYffXdFwHBA.png" alt="" style="width:200px;height:39px;">
+			<img class="img1 slyt_img" src="qlqrcode_files/images/shengliyoutian1.jpg" alt="" style="width:200px;height:41px;margin-left: 23px;">
+			<img class="img1 dthlj_img" src="qlqrcode_files/images/IVTJYC15S_miYffXdFwHBA.png" alt="" style="width:200px;height:39px;margin-top: 30px;">
 			<img class="img1 dyhkjc_img" src="qlqrcode_files/images/OEAY-g19T4aXVfjcoRpVUw.png" alt="" style="width:200px;height:34px;">
 			<img class="img1 hnycxny_img" src="qlqrcode_files/images/OP_bG_UqQVOX656W-W2usQ.png" alt="" style="width:200px;height:28px;">
 			<img class="img1 hm_img" src="qlqrcode_files/images/FKMs6dSxT5uuM37-7YezMw.png" alt="" style="width:200px;height:34px;">
-			<img class="img1 jnkyjt_img" src="qlqrcode_files/images/o8cYLHcfSSCP1dopxIC-8g.png" alt="" style="width:200px;height:40px;">
-			<img class="img1 wrhxcl_img" src="qlqrcode_files/images/4VrLJMisTU2xBRJmqwDBng.png" alt="" style="width:200px;height:32px;">
+			<img class="img1 jnkyjt_img" src="qlqrcode_files/images/o8cYLHcfSSCP1dopxIC-8g.png" alt="" style="width:200px;height:40px;margin-top: 30px;margin-left: -15px;">
+			<img class="img1 wrhxcl_img" src="qlqrcode_files/images/4VrLJMisTU2xBRJmqwDBng.png" alt="" style="width:200px;height:32px;margin-left: 15px;">
 			<img class="img1 mzgj_img" src="qlqrcode_files/images/fLoo-f5cQwydvhq6U7XjNw.png" alt="" style="width:200px;height:37px;">
 			<img class="img1 htkg_img" src="qlqrcode_files/images/sanjianghangtian1.jpg" alt="" style="width:200px;height:25px;">
 		</div>
 	</div>
 
 	<div style="width:100%;height:auto;margin:30px auto 0;color: #363636;background-color: #F9F9F9;padding:1px;">
-		<div style="width:100%;text-align:center;font-size:30px;margin-top:30px;">免费即可使用，付费获取更高功能及专享服务</div>
-		<div style="width:650px;height:60px;margin:30px auto 100px;">
+		<div style="width:100%;text-align:center;font-size:30px;margin-top:40px;">免费即可使用，付费获取更高功能及专享服务</div>
+		<div style="width:650px;height:60px;margin:30px auto 90px;">
 			<div style="width:300px;height:60px;line-height:60px;text-align:center;color: #fff;background-color: #00A3FF;
 		border-radius: 5px;">免费使用</div>
 			<div style="width:300px;height:60px;line-height:60px;margin-top:-60px;margin-left:350px;text-align:center;color: #00A3FF;background-color: #fff;
@@ -220,8 +220,8 @@ $("#swiper-wrapper").css("height",sww*633/1900+"px");
 			<div style="font-size: 30px;color: #FFFFFF;margin-top:30px;">邮箱地址：qdhualing@126.com</div>
 			<div style="font-size: 30px;color: #FFFFFF;margin-top:30px;">公司地址：青岛市市北中央商务区西王大厦16F</div>
 		</div>
-		<div style="width: 100%;height: 52px;line-height: 52px;border-top: 2px solid rgba(255,255,255,0.5);margin: 0 auto;text-align: center;font-size: 14px;color: #999;">
-			青岛华凌科技有限公司 qdhualing.com <a href="http://www.beian.miit.gov.cn" style="color:#999;">鲁ICP备19062226号-3</a>
+		<div style="width: 100%;height: 52px;line-height: 52px;border-top: 2px solid rgba(255,255,255,0.5);margin: 0 auto;text-align: center;font-size: 30px;color: #999;">
+			青岛华凌科技有限公司 qdhualing.com <a href="http://www.beian.miit.gov.cn" style="color:#999;text-decoration: none;">鲁ICP备19062226号-3</a>
 		</div>
 	</div>
  </body>
