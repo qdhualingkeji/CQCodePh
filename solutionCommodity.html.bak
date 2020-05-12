@@ -38,10 +38,52 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
 
   .business-info-bg{
 	width:100%;
-	height:200px;
-	margin-top:30px;
+	margin-top:100px;
 	background-image: url(qlqrcode_files/static/images/goods/green-back@2x_ea6fd6b.png);
 	background-size: 100%;
+	padding:1px;
+  }
+  .business-info-title {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+	margin-top:30px;
+  }
+  .business-info-row{
+	width:810px;height:325px;margin:30px auto 0;
+  }
+  .business-info-item{
+	width:270px;height:325px;text-align:center;background: #fff;border-radius: 4px;box-shadow: 0 10px 20px -10px rgba(0,0,0,.15);
+  }
+  .business-info-item .img-box{
+	width:100px;height:100px;margin-top:30px;
+  }
+  .business-info-item-item-title{
+	margin-top:30px;
+  }
+  .business-info-item-item-desc{
+	width:85%;line-height:25px;margin:30px auto 0;
+  }
+  .advanced-feature-title{
+	font-size: 24px;text-align: center;margin-top: 250px;font-weight: 700;
+  }
+  .advanced-feature-list{
+	width:810px;margin:30px auto 0;
+  }
+  .advanced-feature-item{
+	width:270px;height:250px;text-align:center;border-bottom: 1px dashed #d9d9d9;
+  }
+  .advanced-feature-item .img-box{
+	width:48px;
+	height:48px;
+	margin-top:30px;
+  }
+  .advanced-feature-item-title{
+	font-size: 24px;color: rgba(0,0,0,.87);font-weight: 700;margin-top:10px;
+  }
+  .advanced-feature-item-desc{
+	width:85%;line-height:33px;color: #666;font-size: 24px;margin:10px auto 0;
   }
   </style>
  </head>
@@ -100,6 +142,74 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
 	  </div>
   </div>
 
-  <div class="business-info-bg" id="business-info-bg"></div>
+  <div class="business-info-bg" id="business-info-bg">
+	<div class="business-info-title">二维码让业务信息流动更快</div>
+	<div class="business-info-row">
+		<div class="business-info-item">
+			<img class="img-box" src="qlqrcode_files/static/images/goods/Consumer@2x_5ce276e.png" alt="">
+			<div class="business-info-item-item-title">让 <span style="font-weight:bold;">消费者</span> 随时随地了解商品</div>
+			<div class="business-info-item-item-desc">利用商品包装的有限版面，向消费者展示营销和帮助信息，不放过每一次价值传递的机会。</div>
+		</div>
+		<div class="business-info-item" style="margin-top:-325px;margin-left:270px;">
+			<img class="img-box" src="qlqrcode_files/static/images/goods/partner@2x_ae40096.png" alt="">
+			<div class="business-info-item-item-title">向 <span style="font-weight:bold;">商业伙伴</span> 迅速传递电子资料</div>
+			<div class="business-info-item-item-desc">无论招商、展会现场，还是线上业务接洽，向客商快速传递商业资料，体现你的效率和诚意。</div>
+		</div>
+		<div class="business-info-item" style="margin-top:-325px;margin-left:540px;">
+			<img class="img-box" src="qlqrcode_files/static/images/goods/file@2x_ea21e1a.png" alt="">
+			<div class="business-info-item-item-title">为产品建立 <span style="font-weight:bold;">动态档案</span></div>
+			<div class="business-info-item-item-desc">即时存储和读取产品信息，把碎片数据汇聚成有价值的产品履历和信息资产。</div>
+		</div>
+	</div>
+  </div>
+
+  <div class="advanced-feature-title">众多高级功能和服务，满足企业用户深度应用</div>
+  <div class="advanced-feature-list">
+	  <div class="advanced-feature-item">
+		<img class="img-box" src="qlqrcode_files/static/images/goods/circle-remove@2x_289f118.png" alt="">
+		<div class="advanced-feature-item-title">去除辰麒标识</div>
+		<div class="advanced-feature-item-desc">提升用户浏览体验，扫码界面纯净无广告</div>
+	  </div>
+	  <div class="advanced-feature-item" style="margin-top:-250px;margin-left:270px;">
+		<img class="img-box" src="qlqrcode_files/static/images/goods/cunchuqia@2x_aa9fb3a.png" alt="">
+		<div class="advanced-feature-item-title">海量账号存储容量</div>
+		<div class="advanced-feature-item-desc">向二维码中上传图片和文件素材，展示效果更佳</div>
+	  </div>
+	  <div class="advanced-feature-item" style="margin-top:-250px;margin-left:540px;">
+		<img class="img-box" src="qlqrcode_files/static/images/goods/bofang-4@2x_b09da60.png" alt="">
+		<div class="advanced-feature-item-title">音视频高清播放</div>
+		<div class="advanced-feature-item-desc">支持多档清晰度切换，保证二维码中音视频播放体验</div>
+	  </div>
+	  <div class="advanced-feature-item">
+		<img class="img-box" src="qlqrcode_files/static/images/goods/biaodanwancheng@2x_49e8042.png" alt="">
+		<div class="advanced-feature-item-title">表单记录功能</div>
+		<div class="advanced-feature-item-desc">用二维码记录单代替纸质表单进行记录协作</div>
+	  </div>
+	  <div class="advanced-feature-item" style="margin-top:-250px;margin-left:270px;">
+		<img class="img-box" src="qlqrcode_files/static/images/goods/batch-code@2x_f22ce4e.png" alt="">
+		<div class="advanced-feature-item-title">批量生码</div>
+		<div class="advanced-feature-item-desc">一次性生成格式相同的二维码，提升二维码制作效率</div>
+	  </div>
+	  <div class="advanced-feature-item" style="margin-top:-250px;margin-left:540px;">
+		<img class="img-box" src="qlqrcode_files/static/images/goods/tianxieribao@2x_3df2416.png" alt="">
+		<div class="advanced-feature-item-title">空码赋值</div>
+		<div class="advanced-feature-item-desc">先贴码后扫码填充内容，业务现场即刻用码</div>
+	  </div>
+	  <div class="advanced-feature-item">
+		<img class="img-box" src="qlqrcode_files/static/images/goods/wiappfangwenliang@2x_f44741f.png" alt="">
+		<div class="advanced-feature-item-title">二维码访问设置</div>
+		<div class="advanced-feature-item-desc">按需设置二维码有效期、查看权限和手机应用打开方式</div>
+	  </div>
+	  <div class="advanced-feature-item" style="margin-top:-250px;margin-left:270px;">
+		<img class="img-box" src="qlqrcode_files/static/images/goods/Shapecopy@2x_40830ec.png" alt="">
+		<div class="advanced-feature-item-title">快捷标签排版</div>
+		<div class="advanced-feature-item-desc">使用A4纸和普通打印机快速制作二维码标签</div>
+	  </div>
+	  <div class="advanced-feature-item" style="margin-top:-250px;margin-left:540px;">
+		<img class="img-box" src="qlqrcode_files/static/images/goods/pinpai-2@2x_be92468.png" alt="">
+		<div class="advanced-feature-item-title">企业主页和品牌VI</div>
+		<div class="advanced-feature-item-desc">先贴码后扫码填充内容，业务现场即刻用码</div>
+	  </div>
+  </div>
  </body>
 </html>
