@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>辰麒二维码追溯系统，一物一码，智能追溯</title>
+<script type="text/javascript" src="qrcode/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+var bibw=$("#business-info-bg").css("width");
+bibw=bibw.substring(0,bibw.length-2);
+$("#business-info-bg").css("height",bibw*680/2880+"px");
+});
+</script>
+  <style>
+  .goods-case-box{
+	width:840px;height:auto;margin:50px auto 0;
+  }
+  .good-scene-item{
+	width:400px;height:520px;box-shadow: 0 10px 20px -10px rgba(0,0,0,.15);
+  }
+  .good-scene-item img{
+	width: 400px;
+	height: 321px;
+  }
+  .good-scene-item .goods-item-title{
+	width:360px;margin:30px auto 0;font-size: 30px;
+  }
+  .good-scene-item .goods-item-desc{
+	width:360px;line-height:25px;margin:15px auto 0;color: #4a4a4a;
+  }
+  .good-scene-item .goods-item-link-box{
+	margin-top:15px;margin-left:20px;color: #4a4a4a;
+  }
+
+  .business-info-bg{
+	width:100%;
+	height:200px;
+	margin-top:30px;
+	background-image: url(qlqrcode_files/static/images/goods/green-back@2x_ea6fd6b.png);
+	background-size: 100%;
+  }
+  </style>
+ </head>
+ <body style="width:100%;margin:0;padding:1px;">
+  <div style="width:100%;height:60px;padding:1px;position:fixed;">
+	<a style="width: 400px;height: 41px;margin-top:10px;background: url(qrcode/ig/logo-white.png) no-repeat center;background-size: 100% 100%;display: block;"></a>
+	<div style="width: 600px;height: 60px;line-height: 60px;color:#363636;margin-top:-50px;font-size:30px;float:right;">
+		<div style="width: 60px;height: 60px;">首页</div>
+		<div style="width: 130px;height: 20px;margin-top:-60px;margin-left:65px;">案例模板</div>
+		<div style="width: 200px;height: 20px;margin-top:-20px;margin-left:200px;">二维码生成器</div>
+		<div style="width: 130px;height: 20px;margin-top:-20px;margin-left:405px;">定制价格</div>
+		<div style="width: 60px;height: 20px;margin-top:-20px;margin-left:540px;">帮助</div>
+	</div>
+  </div>
+  <div style="width:100%;text-align:center;font-family: Arial,'Microsoft Yahei';font-size: 40px;color: #363636;margin-top: 105px;">多用户模板化</div>
+  <div style="width:100%;text-align:center;font-family: Arial,'Microsoft Yahei';font-size: 30px;color: #363636;margin-top: 10px;">二维码应用方案</div>
+  <div style="width:90%;text-align:center;font-family: Arial,'Microsoft Yahei';font-size: 30px;color: #363636;margin: 10px auto 0;">帮助各种规模企业用户在招商、推广、服务等各环节，应用二维码迅速解决信息分享问题</div>
+  <div style="width:100%;text-align:center;font-family: Arial,'Microsoft Yahei';font-size: 40px;color: #363636;margin-top: 30px;">零技术投入，像使用 Office 一样，即刻制作二维码</div>
+
+  <div class="goods-case-box">
+	  <div class="good-scene-item">
+		<img src="qlqrcode_files/images/2019/07/product-img-new1@2x.png">
+		<div class="goods-item-title">商品展示二维码</div>
+		<div class="goods-item-desc">消费者扫码查询商品统一标价充分利用包装版面，传递品牌价值</div>
+		<div class="goods-item-link-box"><a>应用教程</a></div>
+	  </div>
+	  <div class="good-scene-item" style="margin-top:-520px;margin-left:440px;">
+		<img src="qlqrcode_files/images/2019/07/product-jfdhjp.png">
+		<div class="goods-item-title">积分兑换奖品二维码</div>
+		<div class="goods-item-desc">扫码即可领取店铺积分，累积兑换精美礼品，培养忠实客户群</div>
+		<div class="goods-item-link-box"><a>应用教程</a></div>
+	  </div>
+	  <div class="good-scene-item" style="margin-top:30px;">
+		<img src="qlqrcode_files/images/2019/07/product-pic-new1@2x.png">
+		<div class="goods-item-title">多媒体资料二维码</div>
+		<div class="goods-item-desc">扫码即可快速共享招商推广资料制作便利，内容可随时更新</div>
+		<div class="goods-item-link-box"><a>应用教程</a></div>
+	  </div>
+	  <div class="good-scene-item" style="margin-top:-520px;margin-left:440px;">
+		<img src="qlqrcode_files/images/2019/07/product-sms-new1@2x.png">
+		<div class="goods-item-title">产品说明书二维码</div>
+		<div class="goods-item-desc">消费者保存便利，扫码阅读体验好代替纸质说明书，节约物料成本</div>
+		<div class="goods-item-link-box"><a>应用教程</a></div>
+	  </div>
+	  <div class="good-scene-item" style="margin-top:30px;">
+		<img src="qlqrcode_files/images/2019/07/ypjs-new@2x.png">
+		<div class="goods-item-title">建筑施工二维码</div>
+		<div class="goods-item-desc">查看样品信息和报价，快速选款订货多媒体展示实际使用效果，促进销量</div>
+		<div class="goods-item-link-box"><a>应用教程</a></div>
+	  </div>
+	  <div class="good-scene-item" style="margin-top:-520px;margin-left:440px;">
+		<img src="qlqrcode_files/images/2019/07/product-jiafang.png">
+		<div class="goods-item-title">家纺二维码</div>
+		<div class="goods-item-desc">扫码即可查看家纺产品的环保信息、价格视频等，助力家纺行业进入多媒体销售新时代</div>
+		<div class="goods-item-link-box"><a>应用教程</a></div>
+	  </div>
+  </div>
+
+  <div class="business-info-bg" id="business-info-bg"></div>
+ </body>
+</html>
