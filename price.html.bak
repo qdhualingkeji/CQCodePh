@@ -39,7 +39,7 @@
 	width: 60px;height: 20px;margin-top:-20px;margin-left:540px;
   }
   .usePrice_div{
-	width:100%;height:200px;background-color: #F9F9F9;padding:1px;
+	width:100%;height:380px;background-color: #F9F9F9;padding:1px;
   }
   .usePrice_div .title1{
 	width:100%;text-align:center;font-family: Arial,'Microsoft Yahei';font-size: 30px;color: #363636;margin-top: 105px;
@@ -80,6 +80,87 @@
     font-size: 12px;
     margin-top: 5px;
   }
+
+  .version_div{
+	width:860px;
+	margin: 120px auto 50px;
+  }
+  .version_div .title_div {
+    width: 860px;
+    height: 84px;
+    border-bottom: 2px solid rgba(120,130,140,.25);
+}
+.version_div .title_div .col1_div {
+    width: 172px;
+    float: left;
+}
+.version_div .title_div .bbdb_span {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.version_div .title_div .col2_div, .version_div .title_div .col3_div, .version_div .title_div .col4_div, .version_div .title_div .col5_div {
+    width: 172px;
+    float: left;
+    text-align: center;
+}
+.version_div .title_div .long_div {
+    font-size: 16px;
+    height: 30px;
+}
+.version_div .title_div .fuhao_span {
+    font-size: 12px;
+}
+.version_div .title_div .price_span {
+    font-size: 16px;
+    font-weight: 600;
+}
+.version_div .jcgn_div, .version_div .bbrl_div, .version_div .txjld_div, .version_div .qyzhxz_div, .version_div .qyppgn_div, .version_div .shfw_div {
+    width: 860px;
+    height: 56px;
+    line-height: 56px;
+    background: #F9F9F9;
+}
+.version_div .jcgn_span, .version_div .bbrl_span, .version_div .txjld_span, .version_div .qyzhxz_span, .version_div .qyppgn_span, .version_div .shfw_span {
+    margin-left: 20px;
+    font-weight: 600;
+}
+.version_div .content_div {
+    width: 860px;
+    background: #F9F9F9;
+}
+.version_div .content_div .row_div {
+    width: 100%;
+    height: 40px;
+}
+.version_div .content_div .smcs_row_div,.version_div .content_div .ysprlxe_row_div,.version_div .content_div .xfrs_row_div{
+	width: 100%;
+	height: 50px;
+}
+.version_div .content_div .col1_div {
+    width: 172px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+}
+.version_div .content_div .col2_div, .version_div .content_div .col3_div, .version_div .content_div .col4_div, .version_div .content_div .col5_div {
+    width: 172px;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    text-align: center;
+    float: left;
+}
+.version_div .content_div .col1_span {
+    color: #666;
+    margin-left: 20px;
+}
+.version_div .content_div .smcs_col_span,.version_div .content_div .ysprlxe_col_span,.version_div .content_div .xfrs_col_span{
+	color: #666;
+}
+.version_div .content_div .smcs_col_div,.version_div .content_div .ysprlxe_col_div,.version_div .content_div .xfrs_col_div{
+	width: 152px;height: 50px;line-height: 25px;float: left;padding-left:20px;
+}
   </style>
  </head>
  <body>
@@ -140,5 +221,338 @@
 		  </div>
 	  </div>
   </div>
+
+  <div class="version_div">
+	<div class="title_div">
+		<div class="col1_div"><span class="bbdb_span">版本对比<span></span></span></div>
+		<div class="col2_div">
+			<div class="long_div">免费版</div>
+			<span class="fuhao_span">￥</span>
+			<span class="price_span">0元/年</span>
+		</div>
+		<div class="col3_div">
+			<div class="long_div">基础版</div>
+			<span class="fuhao_span">￥</span>
+			<span class="price_span">600元/年</span>
+		</div>
+		<div class="col4_div">
+			<div class="long_div">高级版</div>
+			<span class="fuhao_span">￥</span>
+			<span class="price_span">1270元/年</span>
+		</div>
+		<div class="col5_div">
+			<div class="long_div">行业版</div>
+			<span class="fuhao_span">￥</span>
+			<span class="price_span">2670元/年</span>
+		</div>
+	</div>
+	<div class="jcgn_div">
+		<span class="jcgn_span">基础功能</span>
+	</div>
+	<div class="content_div">
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">二维码长期有效</span>
+			</div>
+			<div class="col2_div">
+				<span class="rightSign_span"></span>
+			</div>
+			<div class="col3_div">
+				<span class="rightSign_span">√</span>
+			</div>
+			<div class="col4_div">
+				<span class="rightSign_span">√</span>
+			</div>
+			<div class="col5_div">
+				<span class="rightSign_span">√</span>
+			</div>
+		</div>
+		<div class="smcs_row_div">
+			<div class="smcs_col_div">
+				<span class="smcs_col_span">二维码生成数量/扫描次数</span>
+			</div>
+			<div class="col2_div">不限</div>
+			<div class="col3_div">不限</div>
+			<div class="col4_div">不限</div>
+			<div class="col5_div">不限</div>
+		</div>
+	</div>
+	<div class="bbrl_div">
+		<span class="bbrl_span">扫码展示图片、文件、音视频等内容</span>
+	</div>
+	<div class="content_div">
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">图片/文件上传总容量限额</span>
+			</div>
+			<div class="col2_div">50M</div>
+			<div class="col3_div">1G</div>
+			<div class="col4_div">3G</div>
+			<div class="col5_div">30G</div>
+		</div>
+		<div class="row_div">
+			<div class="ysprlxe_col_div">
+				<span class="ysprlxe_col_span">音视频上传总容量限额</span>
+			</div>
+			<div class="col2_div">500M</div>
+			<div class="col3_div">不限</div>
+			<div class="col4_div">不限</div>
+			<div class="col5_div">不限</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">音视频播放人数</span>
+			</div>
+			<div class="col2_div">限5人播放体验</div>
+			<div class="col3_div">不限</div>
+			<div class="col4_div">不限</div>
+			<div class="col5_div">不限</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">音视频高清播放流量</span>
+			</div>
+			<div class="col2_div">12G</div>
+			<div class="col3_div">240G</div>
+			<div class="col4_div">600G</div>
+			<div class="col5_div">6000G</div>
+		</div>
+	</div>
+	<div class="txjld_div">
+		<span class="txjld_span">扫码填写记录单，收集多种信息</span>
+	</div>
+	<div class="content_div">
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">记录填写与查看</span>
+			</div>
+			<div class="col2_div">
+				<span class="rightSign_span">√</span>
+			</div>
+			<div class="col3_div">
+				<span class="rightSign_span">√</span>
+			</div>
+			<div class="col4_div">
+				<span class="rightSign_span">√</span>
+			</div>
+			<div class="col5_div">
+				<span class="rightSign_span">√</span>
+			</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">图片水印防作假</span>
+			</div>
+			<div class="col2_div">
+				<span class="rightSign_span">√</span>
+			</div>
+			<div class="col3_div">
+				<span class="rightSign_span">√</span>
+			</div>
+			<div class="col4_div">
+				<span class="rightSign_span">√</span>
+			</div>
+			<div class="col5_div">
+				<span class="rightSign_span">√</span>
+			</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">记录图片高清查看限额</span>
+			</div>
+			<div class="col2_div">100M</div>
+			<div class="col3_div">100M</div>
+			<div class="col4_div">100M</div>
+			<div class="col5_div">不限</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">高级权限设置</span>
+			</div>
+			<div class="col2_div">-</div>
+			<div class="col3_div">-</div>
+			<div class="col4_div">-</div>
+			<div class="col5_div">
+				<span class="rightSign_span">√</span>
+			</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">记录协作人数</span>
+			</div>
+			<div class="col2_div">-</div>
+			<div class="col3_div">-</div>
+			<div class="col4_div">-</div>
+			<div class="col5_div">15名协作人</div>
+		</div>
+		<div class="xfrs_row_div">
+			<div class="xfrs_col_div">
+				<span class="xfrs_col_span">消息提醒人数（每个记录单）</span>
+			</div>
+			<div class="col2_div">3人</div>
+			<div class="col3_div">3人</div>
+			<div class="col4_div">3人</div>
+			<div class="col5_div">不限</div>
+		</div>
+	</div>
+	<div class="qyzhxz_div">
+		<span class="qyzhxz_span">企业账号协作</span>
+	</div>
+	<div class="content_div">
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">协作管理权限</span>
+			</div>
+			<div class="col2_div">-</div>
+			<div class="col3_div">-</div>
+			<div class="col4_div">
+				<span class="rightSign_span">√</span>
+			</div>
+			<div class="col5_div">
+				<span class="rightSign_span">√</span>
+			</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">子管理员人数</span>
+			</div>
+			<div class="col2_div">-</div>
+			<div class="col3_div">-</div>
+			<div class="col4_div">2个</div>
+			<div class="col5_div">5个</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">账号操作日志</span>
+			</div>
+			<div class="col2_div">-</div>
+			<div class="col3_div">-</div>
+			<div class="col4_div">
+				<span class="rightSign_span">√</span>
+			</div>
+			<div class="col5_div">
+				<span class="rightSign_span">√</span>
+			</div>
+		</div>
+	</div>
+	<div class="qyppgn_div">
+		<span class="qyppgn_span">企业品牌功能</span>
+	</div>
+	<div class="content_div">
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">去除页面底部辰麒标识</span>
+			</div>
+			<div class="col2_div">-</div>
+			<div class="col3_div"><span class="rightSign_span">√</span></div>
+			<div class="col4_div">
+				<span class="rightSign_span">√</span>
+			</div>
+			<div class="col5_div">
+				<span class="rightSign_span">√</span>
+			</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">去除网址活码中间页</span>
+			</div>
+			<div class="col2_div">-</div>
+			<div class="col3_div"><span class="rightSign_span">√</span></div>
+			<div class="col4_div">
+				<span class="rightSign_span">√</span>
+			</div>
+			<div class="col5_div">
+				<span class="rightSign_span">√</span>
+			</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">企业自定义登录域名</span>
+			</div>
+			<div class="col2_div">-</div>
+			<div class="col3_div">-</div>
+			<div class="col4_div">-</div>
+			<div class="col5_div">-</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">企业独立管理后台</span>
+			</div>
+			<div class="col2_div">-</div>
+			<div class="col3_div">-</div>
+			<div class="col4_div">-</div>
+			<div class="col5_div">-</div>
+		</div>
+	</div>
+	<div class="shfw_div">
+		<span class="shfw_span">售后服务</span>
+	</div>
+	<div class="content_div">
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">在线客服</span>
+			</div>
+			<div class="col2_div">5*8小时工单支持</div>
+			<div class="col3_div">1v1专属售后</div>
+			<div class="col4_div">1v1专属售后</div>
+			<div class="col5_div">1v1专属售后</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">发票和合同</span>
+			</div>
+			<div class="col2_div">-</div>
+			<div class="col3_div"><span class="rightSign_span">√</span></div>
+			<div class="col4_div">
+				<span class="rightSign_span">√</span>
+			</div>
+			<div class="col5_div">
+				<span class="rightSign_span">√</span>
+			</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">技术支持</span>
+			</div>
+			<div class="col2_div">-</div>
+			<div class="col3_div"><span class="rightSign_span">√</span></div>
+			<div class="col4_div">
+				<span class="rightSign_span">√</span>
+			</div>
+			<div class="col5_div">
+				<span class="rightSign_span">√</span>
+			</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">远程培训服务</span>
+			</div>
+			<div class="col2_div">-</div>
+			<div class="col3_div">-</div>
+			<div class="col4_div">-</div>
+			<div class="col5_div">-</div>
+		</div>
+		<div class="row_div">
+			<div class="col1_div">
+				<span class="col1_span">落地应用支持</span>
+			</div>
+			<div class="col2_div">-</div>
+			<div class="col3_div">-</div>
+			<div class="col4_div">-</div>
+			<div class="col5_div">-</div>
+		</div>
+	</div>
+</div>
+
+<div style="width: 100%;height: auto;background-color: #1F232A;padding:1px;">
+		<div style="margin-top:30px;margin-left: 50px;margin-bottom:30px;">
+			<div style="font-size: 30px;color: #FFFFFF;">咨询热线：0532-55588351  15712773653（微信同号）</div>
+			<div style="font-size: 30px;color: #FFFFFF;margin-top:30px;">邮箱地址：qdhualing@126.com</div>
+			<div style="font-size: 30px;color: #FFFFFF;margin-top:30px;">公司地址：青岛市市北中央商务区西王大厦16F</div>
+		</div>
+		<div style="width: 100%;height: 52px;line-height: 52px;border-top: 2px solid rgba(255,255,255,0.5);margin: 0 auto;text-align: center;font-size: 30px;color: #999;">
+			青岛华凌科技有限公司 qdhualing.com <a href="http://www.beian.miit.gov.cn" style="color:#999;text-decoration: none;">鲁ICP备19062226号-3</a>
+		</div>
+	</div>
  </body>
 </html>
