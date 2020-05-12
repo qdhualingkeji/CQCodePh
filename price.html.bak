@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>辰麒二维码追溯系统，一物一码，智能追溯</title>
+  <style>
+  body{
+	width:100%;margin:0;padding:1px;
+  }
+  .top_div{
+	width:100%;height:60px;background-color:#fff;box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.05);padding:1px;position:fixed;
+  }
+  .logo_a{
+	width: 400px;height: 41px;margin-top:10px;background: url(qrcode/ig/logo-white.png) no-repeat center;background-size: 100% 100%;display: block;
+  }
+  .navbar_div{
+	width: 600px;height: 60px;line-height: 60px;margin-top:-50px;font-size:30px;float:right;
+  }
+  .navbar_div a{
+	color:#363636;text-decoration: none;
+  }
+  .navbar_div .sy_div{
+	width: 60px;height: 60px;
+  }
+  .navbar_div .almb_div{
+	width: 130px;height: 20px;margin-top:-60px;margin-left:65px;
+  }
+  .navbar_div .ewmscq_div{
+	width: 200px;height: 20px;margin-top:-20px;margin-left:200px;
+  }
+  .navbar_div .dzjg_div{
+	width: 130px;height: 20px;margin-top:-20px;margin-left:405px;
+  }
+  .navbar_div .bz_div{
+	width: 60px;height: 20px;margin-top:-20px;margin-left:540px;
+  }
+  .usePrice_div{
+	width:100%;height:200px;background-color: #F9F9F9;padding:1px;
+  }
+  .usePrice_div .title1{
+	width:100%;text-align:center;font-family: Arial,'Microsoft Yahei';font-size: 30px;color: #363636;margin-top: 105px;
+  }
+  .usePrice_div .title2{
+	width:100%;text-align:center;font-family: Arial,'Microsoft Yahei';font-size: 20px;color: #363636;margin-top: 10px;
+  }
+  .usePrice_div .list_div{
+	width:860px;height:230px;margin:40px auto 0;
+  }
+  .usePrice_div .list_div .item_div{
+	width:200px;height:230px;text-align:center;background-color: #fff;box-shadow: 0 2px 8px 0 rgba(0,0,0,.08);padding:1px;
+  }
+  .usePrice_div .list_div .item_div .p-t-md_div{
+	width:100%;font-size: 22px;font-weight: 500;margin-top: 30px;
+  }
+  .usePrice_div .list_div .item_div .p-b-md_div{
+	color: #999;font-size: 16px;margin-top: 5px;
+  }
+  .usePrice_div .list_div .item_div .price_div {
+    margin-top: 30px;
+  }
+  .usePrice_div .list_div .item_div .fuhao_span {
+    color: #999;
+  }
+  .usePrice_div .list_div .item_div .jine_span {
+    font-size: 18px;
+  }
+  .usePrice_div .list_div .item_div .text_div1 {
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  .usePrice_div .list_div .item_div .text_div2 {
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  </style>
+ </head>
+ <body>
+  <div class="top_div">
+	<a class="logo_a"></a>
+	<div class="navbar_div">
+		<div class="sy_div"><a href="index.html">首页</a></div>
+		<div class="almb_div"><a href="solutionCommodity.html">案例模板</a></div>
+		<div class="ewmscq_div">二维码生成器</div>
+		<div class="dzjg_div">定制价格</div>
+		<div class="bz_div">帮助</div>
+	</div>
+  </div>
+  <div class="usePrice_div">
+	  <div class="title1">辰麒为你提供的不止是好用的产品，还有极具性价比的定价</div>
+	  <div class="title2">从内容展示到深度记录应用，满足不同规模不同需求，为企业创造价值</div>
+	  
+	  <div class="list_div">
+		  <div class="item_div">
+			<div class="p-t-md_div">免费版</div>
+			<div class="p-b-md_div">免费试用</div>
+			<div class="price_div">
+				<span class="fuhao_span">￥</span>
+				<span class="jine_span">0元/年</span>
+			</div>
+			<div class="text_div1">二维码生成数量不限</div>
+			<div class="text_div2">限时7天</div>
+		  </div>
+		  <div class="item_div" style="margin-top:-230px;margin-left:220px;">
+			<div class="p-t-md_div">基础版</div>
+			<div class="p-b-md_div">内容展示简单应用</div>
+			<div class="price_div">
+				<span class="fuhao_span">￥</span>
+				<span class="jine_span">600元/年</span>
+			</div>
+			<div class="text_div1">去除辰麒所有标识，开放所有模</div>
+			<div class="text_div2">版和定制功能，客服一对一辅导</div>
+		  </div>
+		  <div class="item_div" style="margin-top:-230px;margin-left:440px;">
+			<div class="p-t-md_div">高级版</div>
+			<div class="p-b-md_div">内容展示多人协作</div>
+			<div class="price_div">
+				<span class="fuhao_span">￥</span>
+				<span class="jine_span">1270元/年</span>
+			</div>
+			<div class="text_div1">多管理员账号协作建码/数据管</div>
+			<div class="text_div2">理，更大容量/少量个性化定制</div>
+		  </div>
+		  <div class="item_div" style="margin-top:-230px;margin-left:660px;">
+			<div class="p-t-md_div">行业版</div>
+			<div class="p-b-md_div">行业专属二维码应用</div>
+			<div class="price_div">
+				<span class="fuhao_span">￥</span>
+				<span class="jine_span">2670元/年</span>
+			</div>
+			<div class="text_div1">多管理员账号协作建码/数据管</div>
+			<div class="text_div2">理，根据客户需求定制功能开发</div>
+		  </div>
+	  </div>
+  </div>
+ </body>
+</html>

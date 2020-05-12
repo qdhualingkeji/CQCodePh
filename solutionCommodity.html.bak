@@ -25,6 +25,27 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
   .logo_a{
 	width: 400px;height: 41px;margin-top:10px;background: url(qrcode/ig/logo-white.png) no-repeat center;background-size: 100% 100%;display: block;
   }
+  .navbar_div{
+	width: 600px;height: 60px;line-height: 60px;margin-top:-50px;font-size:30px;float:right;
+  }
+  .navbar_div a{
+	color:#363636;text-decoration: none;
+  }
+  .navbar_div .sy_div{
+	width: 60px;height: 60px;
+  }
+  .navbar_div .almb_div{
+	width: 130px;height: 20px;margin-top:-60px;margin-left:65px;
+  }
+  .navbar_div .ewmscq_div{
+	width: 200px;height: 20px;margin-top:-20px;margin-left:200px;
+  }
+  .navbar_div .dzjg_div{
+	width: 130px;height: 20px;margin-top:-20px;margin-left:405px;
+  }
+  .navbar_div .bz_div{
+	width: 60px;height: 20px;margin-top:-20px;margin-left:540px;
+  }
 
   .goods-case-box{
 	width:840px;height:auto;margin:50px auto 0;
@@ -98,29 +119,6 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
   .tmdzsy_div{
 	font-size: 24px;text-align: center;margin-top: 50px;font-weight: 700;
   }
-
-
-  .navbar_div{
-	width: 600px;height: 60px;line-height: 60px;margin-top:-50px;font-size:30px;float:right;
-  }
-  .navbar_div a{
-	color:#363636;text-decoration: none;
-  }
-  .navbar_div .sy_div{
-	width: 60px;height: 60px;
-  }
-  .navbar_div .almb_div{
-	width: 130px;height: 20px;margin-top:-60px;margin-left:65px;
-  }
-  .navbar_div .ewmscq_div{
-	width: 200px;height: 20px;margin-top:-20px;margin-left:200px;
-  }
-  .navbar_div .dzjg_div{
-	width: 130px;height: 20px;margin-top:-20px;margin-left:405px;
-  }
-  .navbar_div .bz_div{
-	width: 60px;height: 20px;margin-top:-20px;margin-left:540px;
-  }
   </style>
  </head>
  <body>
@@ -128,7 +126,7 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
 	<a class="logo_a"></a>
 	<div class="navbar_div">
 		<div class="sy_div"><a href="index.html">首页</a></div>
-		<div class="almb_div">案例模板</div>
+		<div class="almb_div"><a href="solutionCommodity.html">案例模板</a></div>
 		<div class="ewmscq_div">二维码生成器</div>
 		<div class="dzjg_div">定制价格</div>
 		<div class="bz_div">帮助</div>
@@ -264,13 +262,13 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
   </div>
 
   <div class="tmdzsy_div">他们都在使用辰麒二维码</div>
-  <div style="width:842px;height:80px;margin:30px auto 0;">
+  <div style="width:845px;height:80px;margin:30px auto 0;">
 	  <img src="qlqrcode_files/images/V8sO46IrR0u9Ab7zKya2dA.png" alt="" style="width:200px;height:39px;">
 	  <img src="qlqrcode_files/images/OylI7ylqRCeSohg2uB6n6w.png" alt="" style="width:200px;height:34px;margin-left:10px;">
 	  <img src="qlqrcode_files/images/2yc9iRliS06gcVWxF8VE6Q.png" alt="" style="width:200px;height:28px;margin-left:10px;">
 	  <img src="qlqrcode_files/images/PJDKykTbQkyXB9III0_ieA.png" alt="" style="width:200px;height:34px;margin-left:10px;">
   </div>
-  <div style="width:842px;height:120px;margin:auto;">
+  <div style="width:845px;height:120px;margin:auto;">
 	  <img src="qlqrcode_files/images/92c4e81f-f013-4f1f-9c2a-82a9e55ffb3c.png" alt="" style="width:200px;height:54px;">
 	  <img src="qlqrcode_files/images/u7xv9kwXS5-HRoOC4_56NA.png" alt="" style="width:200px;height:52px;margin-left:10px;">
 	  <img src="qlqrcode_files/images/gpWPsehgQmarb9Gtn_j07g.png" alt="" style="width:200px;height:56px;margin-left:10px;">
