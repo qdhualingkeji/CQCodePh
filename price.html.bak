@@ -133,7 +133,7 @@
     width: 100%;
     height: 40px;
 }
-.version_div .content_div .smcs_row_div,.version_div .content_div .ysprlxe_row_div,.version_div .content_div .xfrs_row_div{
+.version_div .content_div .smcs_row_div,.version_div .content_div .tpwjrlxe_row_div,.version_div .content_div .ysprlxe_row_div,.version_div .content_div .xfrs_row_div,.version_div .content_div .jltpckxe_row_div,.version_div .content_div .qcymdbcqbs_row_div{
 	width: 100%;
 	height: 50px;
 }
@@ -155,10 +155,10 @@
     color: #666;
     margin-left: 20px;
 }
-.version_div .content_div .smcs_col_span,.version_div .content_div .ysprlxe_col_span,.version_div .content_div .xfrs_col_span{
+.version_div .content_div .smcs_col_span,.version_div .content_div .tpwjrlxe_col_span,.version_div .content_div .ysprlxe_col_span,.version_div .content_div .xfrs_col_span,.version_div .content_div .jltpckxe_col_span,.version_div .content_div .qcymdbcqbs_col_span{
 	color: #666;
 }
-.version_div .content_div .smcs_col_div,.version_div .content_div .ysprlxe_col_div,.version_div .content_div .xfrs_col_div{
+.version_div .content_div .smcs_col_div,.version_div .content_div .tpwjrlxe_col_div,.version_div .content_div .ysprlxe_col_div,.version_div .content_div .xfrs_col_div,.version_div .content_div .jltpckxe_col_div{
 	width: 152px;height: 50px;line-height: 25px;float: left;padding-left:20px;
 }
   </style>
@@ -281,16 +281,16 @@
 		<span class="bbrl_span">扫码展示图片、文件、音视频等内容</span>
 	</div>
 	<div class="content_div">
-		<div class="row_div">
-			<div class="col1_div">
-				<span class="col1_span">图片/文件上传总容量限额</span>
+		<div class="tpwjrlxe_row_div">
+			<div class="tpwjrlxe_col_div">
+				<span class="tpwjrlxe_col_span">图片/文件上传总容量限额</span>
 			</div>
 			<div class="col2_div">50M</div>
 			<div class="col3_div">1G</div>
 			<div class="col4_div">3G</div>
 			<div class="col5_div">30G</div>
 		</div>
-		<div class="row_div">
+		<div class="ysprlxe_row_div">
 			<div class="ysprlxe_col_div">
 				<span class="ysprlxe_col_span">音视频上传总容量限额</span>
 			</div>
@@ -356,9 +356,9 @@
 				<span class="rightSign_span">√</span>
 			</div>
 		</div>
-		<div class="row_div">
-			<div class="col1_div">
-				<span class="col1_span">记录图片高清查看限额</span>
+		<div class="jltpckxe_row_div">
+			<div class="jltpckxe_col_div">
+				<span class="jltpckxe_col_span">记录图片高清查看限额</span>
 			</div>
 			<div class="col2_div">100M</div>
 			<div class="col3_div">100M</div>
@@ -439,9 +439,9 @@
 		<span class="qyppgn_span">企业品牌功能</span>
 	</div>
 	<div class="content_div">
-		<div class="row_div">
-			<div class="col1_div">
-				<span class="col1_span">去除页面底部辰麒标识</span>
+		<div class="qcymdbcqbs_row_div">
+			<div class="qcymdbcqbs_col_div">
+				<span class="qcymdbcqbs_col_span">去除页面底部辰麒标识</span>
 			</div>
 			<div class="col2_div">-</div>
 			<div class="col3_div"><span class="rightSign_span">√</span></div>
