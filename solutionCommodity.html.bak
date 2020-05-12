@@ -16,6 +16,16 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
 });
 </script>
   <style>
+  body{
+	width:100%;margin:0;padding:1px;
+  }
+  .top_div{
+	width:100%;height:60px;background-color:#fff;box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.05);padding:1px;position:fixed;
+  }
+  .logo_a{
+	width: 400px;height: 41px;margin-top:10px;background: url(qrcode/ig/logo-white.png) no-repeat center;background-size: 100% 100%;display: block;
+  }
+
   .goods-case-box{
 	width:840px;height:auto;margin:50px auto 0;
   }
@@ -85,17 +95,43 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
   .advanced-feature-item-desc{
 	width:85%;line-height:33px;color: #666;font-size: 24px;margin:10px auto 0;
   }
+  .tmdzsy_div{
+	font-size: 24px;text-align: center;margin-top: 50px;font-weight: 700;
+  }
+
+
+  .navbar_div{
+	width: 600px;height: 60px;line-height: 60px;margin-top:-50px;font-size:30px;float:right;
+  }
+  .navbar_div a{
+	color:#363636;text-decoration: none;
+  }
+  .navbar_div .sy_div{
+	width: 60px;height: 60px;
+  }
+  .navbar_div .almb_div{
+	width: 130px;height: 20px;margin-top:-60px;margin-left:65px;
+  }
+  .navbar_div .ewmscq_div{
+	width: 200px;height: 20px;margin-top:-20px;margin-left:200px;
+  }
+  .navbar_div .dzjg_div{
+	width: 130px;height: 20px;margin-top:-20px;margin-left:405px;
+  }
+  .navbar_div .bz_div{
+	width: 60px;height: 20px;margin-top:-20px;margin-left:540px;
+  }
   </style>
  </head>
- <body style="width:100%;margin:0;padding:1px;">
-  <div style="width:100%;height:60px;padding:1px;position:fixed;">
-	<a style="width: 400px;height: 41px;margin-top:10px;background: url(qrcode/ig/logo-white.png) no-repeat center;background-size: 100% 100%;display: block;"></a>
-	<div style="width: 600px;height: 60px;line-height: 60px;color:#363636;margin-top:-50px;font-size:30px;float:right;">
-		<div style="width: 60px;height: 60px;">首页</div>
-		<div style="width: 130px;height: 20px;margin-top:-60px;margin-left:65px;">案例模板</div>
-		<div style="width: 200px;height: 20px;margin-top:-20px;margin-left:200px;">二维码生成器</div>
-		<div style="width: 130px;height: 20px;margin-top:-20px;margin-left:405px;">定制价格</div>
-		<div style="width: 60px;height: 20px;margin-top:-20px;margin-left:540px;">帮助</div>
+ <body>
+  <div class="top_div">
+	<a class="logo_a"></a>
+	<div class="navbar_div">
+		<div class="sy_div"><a href="index.html">首页</a></div>
+		<div class="almb_div">案例模板</div>
+		<div class="ewmscq_div">二维码生成器</div>
+		<div class="dzjg_div">定制价格</div>
+		<div class="bz_div">帮助</div>
 	</div>
   </div>
   <div style="width:100%;text-align:center;font-family: Arial,'Microsoft Yahei';font-size: 40px;color: #363636;margin-top: 105px;">多用户模板化</div>
@@ -208,8 +244,48 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
 	  <div class="advanced-feature-item" style="margin-top:-250px;margin-left:540px;">
 		<img class="img-box" src="qlqrcode_files/static/images/goods/pinpai-2@2x_be92468.png" alt="">
 		<div class="advanced-feature-item-title">企业主页和品牌VI</div>
-		<div class="advanced-feature-item-desc">先贴码后扫码填充内容，业务现场即刻用码</div>
+		<div class="advanced-feature-item-desc">露出企业品牌信息，每一次扫码均伴随品牌视觉宣传</div>
+	  </div>
+	  <div class="advanced-feature-item">
+		<img class="img-box" src="qlqrcode_files/static/images/goods/saomiaoliang@2x_471ec17.png" alt="">
+		<div class="advanced-feature-item-title">扫码量统计</div>
+		<div class="advanced-feature-item-desc">实时统计二维码扫描次数，观测渠道投放效果</div>
+	  </div>
+	  <div class="advanced-feature-item" style="margin-top:-250px;margin-left:270px;">
+		<img class="img-box" src="qlqrcode_files/static/images/goods/gongzhonghaoguanli@2x_b745478.png" alt="">
+		<div class="advanced-feature-item-title">公众号引流</div>
+		<div class="advanced-feature-item-desc">开通专属小程序后，可实现在扫码界面一键关注公众号</div>
+	  </div>
+	  <div class="advanced-feature-item" style="margin-top:-250px;margin-left:540px;">
+		<img class="img-box" src="qlqrcode_files/static/images/goods/after-sales-service@2x_a5d73d5.png" alt="">
+		<div class="advanced-feature-item-title">专业售后服务</div>
+		<div class="advanced-feature-item-desc">为二维码落地应用提供专业技术支持和服务</div>
 	  </div>
   </div>
+
+  <div class="tmdzsy_div">他们都在使用辰麒二维码</div>
+  <div style="width:842px;height:80px;margin:30px auto 0;">
+	  <img src="qlqrcode_files/images/V8sO46IrR0u9Ab7zKya2dA.png" alt="" style="width:200px;height:39px;">
+	  <img src="qlqrcode_files/images/OylI7ylqRCeSohg2uB6n6w.png" alt="" style="width:200px;height:34px;margin-left:10px;">
+	  <img src="qlqrcode_files/images/2yc9iRliS06gcVWxF8VE6Q.png" alt="" style="width:200px;height:28px;margin-left:10px;">
+	  <img src="qlqrcode_files/images/PJDKykTbQkyXB9III0_ieA.png" alt="" style="width:200px;height:34px;margin-left:10px;">
+  </div>
+  <div style="width:842px;height:120px;margin:auto;">
+	  <img src="qlqrcode_files/images/92c4e81f-f013-4f1f-9c2a-82a9e55ffb3c.png" alt="" style="width:200px;height:54px;">
+	  <img src="qlqrcode_files/images/u7xv9kwXS5-HRoOC4_56NA.png" alt="" style="width:200px;height:52px;margin-left:10px;">
+	  <img src="qlqrcode_files/images/gpWPsehgQmarb9Gtn_j07g.png" alt="" style="width:200px;height:56px;margin-left:10px;">
+	  <img src="qlqrcode_files/images/cjyMvvCIQvePbgd3n_BrNw.png" class="img2" alt="" style="width:200px;height:37px;margin-left:10px;position: absolute;">
+  </div>
+  
+	<div style="width: 100%;height: auto;background-color: #1F232A;padding:1px;">
+		<div style="margin-top:30px;margin-left: 50px;margin-bottom:30px;">
+			<div style="font-size: 30px;color: #FFFFFF;">咨询热线：0532-55588351  15712773653（微信同号）</div>
+			<div style="font-size: 30px;color: #FFFFFF;margin-top:30px;">邮箱地址：qdhualing@126.com</div>
+			<div style="font-size: 30px;color: #FFFFFF;margin-top:30px;">公司地址：青岛市市北中央商务区西王大厦16F</div>
+		</div>
+		<div style="width: 100%;height: 52px;line-height: 52px;border-top: 2px solid rgba(255,255,255,0.5);margin: 0 auto;text-align: center;font-size: 30px;color: #999;">
+			青岛华凌科技有限公司 qdhualing.com <a href="http://www.beian.miit.gov.cn" style="color:#999;text-decoration: none;">鲁ICP备19062226号-3</a>
+		</div>
+	</div>
  </body>
 </html>

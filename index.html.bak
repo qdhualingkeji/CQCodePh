@@ -15,16 +15,48 @@ sww=sww.substring(0,sww.length-2);
 $("#swiper-wrapper").css("height",sww*633/1900+"px");
 });
 </script>
+<style>
+body{
+	width:100%;margin:0;
+}
+.top_div{
+	width:100%;height:60px;padding:1px;position:fixed;
+}
+.logo_a{
+	width: 400px;height: 41px;margin-top:10px;background: url(qrcode/ig/logo-white.png) no-repeat center;background-size: 100% 100%;display: block;
+}
+.navbar_div{
+	width: 600px;height: 60px;line-height: 60px;margin-top:-50px;font-size:30px;float:right;
+}
+.navbar_div a{
+	color:#fff;text-decoration: none;
+}
+.navbar_div .sy_div{
+	width: 60px;height: 60px;
+}
+.navbar_div .almb_div{
+	width: 130px;height: 20px;margin-top:-60px;margin-left:65px;
+}
+.navbar_div .ewmscq_div{
+	width: 200px;height: 20px;margin-top:-20px;margin-left:200px;
+}
+.navbar_div .dzjg_div{
+	width: 130px;height: 20px;margin-top:-20px;margin-left:405px;
+}
+.navbar_div .bz_div{
+	width: 60px;height: 20px;margin-top:-20px;margin-left:540px;
+}
+</style>
  </head>
- <body style="width:100%;margin:0;">
-  <div style="width:100%;height:60px;padding:1px;position:fixed;">
-	<a style="width: 400px;height: 41px;margin-top:10px;background: url(qrcode/ig/logo-white.png) no-repeat center;background-size: 100% 100%;display: block;"></a>
-	<div style="width: 600px;height: 60px;line-height: 60px;color:#fff;margin-top:-50px;font-size:30px;float:right;">
-		<div style="width: 60px;height: 60px;">首页</div>
-		<div style="width: 130px;height: 20px;margin-top:-60px;margin-left:65px;">案例模板</div>
-		<div style="width: 200px;height: 20px;margin-top:-20px;margin-left:200px;">二维码生成器</div>
-		<div style="width: 130px;height: 20px;margin-top:-20px;margin-left:405px;">定制价格</div>
-		<div style="width: 60px;height: 20px;margin-top:-20px;margin-left:540px;">帮助</div>
+ <body>
+  <div class="top_div">
+	<a class="logo_a"></a>
+	<div class="navbar_div">
+		<div class="sy_div"><a href="index.html">首页</a></div>
+		<div class="almb_div"><a href="solutionCommodity.html">案例模板</a></div>
+		<div class="ewmscq_div">二维码生成器</div>
+		<div class="dzjg_div">定制价格</div>
+		<div class="bz_div">帮助</div>
 	</div>
   </div>
   <div class="swiper-wrapper" id="swiper-wrapper" style="width: 100%;height: 300px;background:url(qrcode/ig/lunbo3.png) no-repeat;background-size:100% 100%;">
@@ -206,7 +238,7 @@ $("#swiper-wrapper").css("height",sww*633/1900+"px");
 
 	<div style="width:100%;height:auto;margin:30px auto 0;color: #363636;background-color: #F9F9F9;padding:1px;">
 		<div style="width:100%;text-align:center;font-size:30px;margin-top:40px;">免费即可使用，付费获取更高功能及专享服务</div>
-		<div style="width:650px;height:60px;margin:30px auto 90px;">
+		<div style="width:650px;height:60px;margin:30px auto 60px;">
 			<div style="width:300px;height:60px;line-height:60px;text-align:center;color: #fff;background-color: #00A3FF;
 		border-radius: 5px;">免费使用</div>
 			<div style="width:300px;height:60px;line-height:60px;margin-top:-60px;margin-left:350px;text-align:center;color: #00A3FF;background-color: #fff;
