@@ -43,9 +43,6 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
   .navbar_div .dzjg_div{
 	width: 130px;height: 20px;margin-top:-20px;margin-left:405px;
   }
-  .navbar_div .bz_div{
-	width: 60px;height: 20px;margin-top:-20px;margin-left:540px;
-  }
 
   .goods-case-box{
 	width:840px;height:auto;margin:50px auto 0;
@@ -65,6 +62,9 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
   }
   .good-scene-item .goods-item-link-box{
 	margin-top:15px;margin-left:20px;color: #4a4a4a;
+  }
+  .good-scene-item .goods-item-link-box a{
+	text-decoration: none;
   }
 
   .business-info-bg{
@@ -128,8 +128,7 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
 		<div class="sy_div"><a href="index.html">首页</a></div>
 		<div class="almb_div"><a href="solutionCommodity.html">案例模板</a></div>
 		<div class="ewmscq_div">二维码生成器</div>
-		<div class="dzjg_div">定制价格</div>
-		<div class="bz_div">帮助</div>
+		<div class="dzjg_div"><a href="price.html">定制价格</a></div>
 	</div>
   </div>
   <div style="width:100%;text-align:center;font-family: Arial,'Microsoft Yahei';font-size: 40px;color: #363636;margin-top: 105px;">多用户模板化</div>
@@ -142,37 +141,37 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
 		<img src="qlqrcode_files/images/2019/07/product-img-new1@2x.png">
 		<div class="goods-item-title">商品展示二维码</div>
 		<div class="goods-item-desc">消费者扫码查询商品统一标价充分利用包装版面，传递品牌价值</div>
-		<div class="goods-item-link-box"><a>应用教程</a></div>
+		<div class="goods-item-link-box"><a href="detail.html">应用教程</a></div>
 	  </div>
 	  <div class="good-scene-item" style="margin-top:-520px;margin-left:440px;">
 		<img src="qlqrcode_files/images/2019/07/product-jfdhjp.png">
 		<div class="goods-item-title">积分兑换奖品二维码</div>
 		<div class="goods-item-desc">扫码即可领取店铺积分，累积兑换精美礼品，培养忠实客户群</div>
-		<div class="goods-item-link-box"><a>应用教程</a></div>
+		<div class="goods-item-link-box"><a href="detail.html">应用教程</a></div>
 	  </div>
 	  <div class="good-scene-item" style="margin-top:30px;">
 		<img src="qlqrcode_files/images/2019/07/product-pic-new1@2x.png">
 		<div class="goods-item-title">多媒体资料二维码</div>
 		<div class="goods-item-desc">扫码即可快速共享招商推广资料制作便利，内容可随时更新</div>
-		<div class="goods-item-link-box"><a>应用教程</a></div>
+		<div class="goods-item-link-box"><a href="detail.html">应用教程</a></div>
 	  </div>
 	  <div class="good-scene-item" style="margin-top:-520px;margin-left:440px;">
 		<img src="qlqrcode_files/images/2019/07/product-sms-new1@2x.png">
 		<div class="goods-item-title">产品说明书二维码</div>
 		<div class="goods-item-desc">消费者保存便利，扫码阅读体验好代替纸质说明书，节约物料成本</div>
-		<div class="goods-item-link-box"><a>应用教程</a></div>
+		<div class="goods-item-link-box"><a href="detail.html">应用教程</a></div>
 	  </div>
 	  <div class="good-scene-item" style="margin-top:30px;">
 		<img src="qlqrcode_files/images/2019/07/ypjs-new@2x.png">
 		<div class="goods-item-title">建筑施工二维码</div>
 		<div class="goods-item-desc">查看样品信息和报价，快速选款订货多媒体展示实际使用效果，促进销量</div>
-		<div class="goods-item-link-box"><a>应用教程</a></div>
+		<div class="goods-item-link-box"><a href="detail.html">应用教程</a></div>
 	  </div>
 	  <div class="good-scene-item" style="margin-top:-520px;margin-left:440px;">
 		<img src="qlqrcode_files/images/2019/07/product-jiafang.png">
 		<div class="goods-item-title">家纺二维码</div>
 		<div class="goods-item-desc">扫码即可查看家纺产品的环保信息、价格视频等，助力家纺行业进入多媒体销售新时代</div>
-		<div class="goods-item-link-box"><a>应用教程</a></div>
+		<div class="goods-item-link-box"><a href="detail.html">应用教程</a></div>
 	  </div>
   </div>
 

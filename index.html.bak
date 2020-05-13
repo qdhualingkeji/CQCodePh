@@ -54,9 +54,9 @@ body{
 	<div class="navbar_div">
 		<div class="sy_div"><a href="index.html">首页</a></div>
 		<div class="almb_div"><a href="solutionCommodity.html">案例模板</a></div>
-		<div class="ewmscq_div">二维码生成器</div>
-		<div class="dzjg_div">定制价格</div>
-		<div class="bz_div">帮助</div>
+		<div class="ewmscq_div"><a>二维码生成器</a></div>
+		<div class="dzjg_div"><a href="price.html">定制价格</a></div>
+		<div class="bz_div"><a>帮助</a></div>
 	</div>
   </div>
   <div class="swiper-wrapper" id="swiper-wrapper" style="width: 100%;height: 300px;background:url(qrcode/ig/lunbo3.png) no-repeat;background-size:100% 100%;">
