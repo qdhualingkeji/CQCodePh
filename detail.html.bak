@@ -20,7 +20,65 @@ $(function(){
 	var waibHtml="";
 	var ctiuHtml="";
 	var id=getQueryString("id");
-	if(id==1381){
+	if(id==1380){
+		dcHtml+="<div style=\"font-size: 32px;font-weight: 600;\">多媒体资料<span style=\"position: relative;top: -2px;\">|</span>二维码应用教程</div>";
+		dcHtml+="<div style=\"font-size: 16px;color: #666;padding: 16px;margin-top:10px;background: #F7F9F7;\">";
+		dcHtml+="<div style=\"line-height:30px;\">将产品画册、企业画册、招商手册等源文件内容制作成二维码，可印在资料袋、纸质画册上，也可通过微信发送，向你的客户随时分享宣传资料。</div>";
+		dcHtml+="<div style=\"margin-top:30px;\">适用于：招商、宣传展会、门店销售等多种线上线下场景。</div>";
+		dcHtml+="</div>";
+
+		waibHtml+="<div style=\"text-align:center;\">";
+		waibHtml+="<img src=\"qlqrcode_files/attachment/image/20190731/1564571834329164.png\" title=\"1564571834329164.png\" alt=\"产品画册二维码.png\" style=\"height: auto; cursor: pointer;\" data-lity=\"\" data-lity-target=\"qlqrcode_files/attachment/image/20190731/1564571834329164.png\">";
+		waibHtml+="</div>";
+		waibHtml+="<strong style=\"font-size: 18px;\">应用效果</strong>";
+		waibHtml+="<div style=\"margin-top:10px;\">支持添加文字、图片、文件、音视频等内容，文件可下载至手机中。</div>";
+		waibHtml+="<div style=\"margin-top:10px;\">添加「活码导航」模块，可点击跳转至别的二维码页面，分类展示更多产品。</div>";
+		waibHtml+="<div style=\"margin-top:10px;\">添加「联系」模块，可以展示电话、地址、邮箱等信息，支持一键拨打电话。</div>";
+		waibHtml+="<div style=\"margin-top:10px;\">行业专属版用户可开通「专属小程序」，扫码界面展示企业logo，还可实现「一键关注公众号」，增加用户黏性。</div>";
+		waibHtml+="<div style=\"margin-top:20px;\">";
+		waibHtml+="<strong style=\"font-size: 18px;\">体验案例</strong>";
+		waibHtml+="</div>";
+		waibHtml+="<div style=\"width:100%;height:415px;\">";
+		waibHtml+="<div class=\"left-img-box\" style=\"width: 190px;height: 390px;border: 1px solid #ddd;position: relative;margin-left: 80px;float: left;background-size: 100%;background-repeat: repeat-y;background-image: url(qlqrcode_files/images/2019/07/middle2@2x.png);border-radius: 24px;overflow: hidden;z-index: 0;\">";
+		waibHtml+="<div class=\"imgTopBox\" style=\"position: absolute;z-index: 1;background: #999999;\">";
+		waibHtml+="<img src=\"qlqrcode_files/images/2019/07/top_white2@2x.png\" alt=\"\" style=\"width: 190px; height: auto; cursor: pointer;\" data-lity=\"\" data-lity-target=\"qlqrcode_files/images/2019/07/top_white2@2x.png\">";
+		waibHtml+="</div>";
+		waibHtml+="<div class=\"imgbottomBox\" style=\"position: absolute;bottom: 0px;z-index: -1;\">";
+		waibHtml+="<img src=\"qlqrcode_files/images/2019/07/bottom2@2x.png\" alt=\"\" style=\"width: 190px; height: auto; cursor: pointer;\" data-lity=\"\" data-lity-target=\"qlqrcode_files/images/2019/07/bottom2@2x.png\">";
+		waibHtml+="</div>";
+		waibHtml+="<div class=\"imgContentPreview\" style=\"width: 180px;height: 374px;border-radius:21px;position: absolute;top: 11px;left: 4px;background: #999999;\">";
+		waibHtml+="<div style=\"height: 354px;overflow-y: scroll;padding-top: 0px;overflow-x: hidden;\">";
+		waibHtml+="<img style=\"width: 174px;margin-left: 3px;height: auto; cursor: pointer;\" alt=\"场景图片\" src=\"qlqrcode_files/images/2019/06/WechatIMG1.jpeg\" data-lity=\"\" data-lity-target=\"qlqrcode_files/images/2019/06/WechatIMG1.jpeg\">";
+		waibHtml+="</div>";
+		waibHtml+="</div>";
+		waibHtml+="</div>";
+		waibHtml+="<div class=\"right-box\" style=\"width: 200px;height: 200px;float: left;margin-left: 150px;margin-top: 90px;background-image: url(qlqrcode_files/images/2019/06/four_border.png);background-repeat: no-repeat;background-size: 234px 214px;background-position: -16px -8px;\">";
+		waibHtml+="<img src=\"qlqrcode_files/images/2019/06/产品画册.png\" style=\"width: 160px; height: auto; float: left; margin-left: 21px; margin-top: 21px; cursor: pointer;\" data-lity=\"\" data-lity-target=\"qlqrcode_files/images/2019/06/产品画册.png\">";
+		waibHtml+="</div>";
+		waibHtml+="<div style=\"float:left;margin-left: 181px;margin-top: 8px;font-weight: bold;color: rgba(0,0,0,.87);\">扫码体验完整案例效果</div>";
+		waibHtml+="</div>";
+		waibHtml+="<div style=\"margin-top:20px;\">";
+		waibHtml+="<strong style=\"font-size: 18px;\">制作教程</strong>";
+		waibHtml+="</div>";
+		waibHtml+="<div style=\"margin-top:20px;\">";
+		waibHtml+="<strong style=\"font-size: 16px;\">第一步：制作二维码</strong>";
+		waibHtml+="</div>";
+		waibHtml+="<div style=\"margin-top:20px;\">方式一：在首页点击「文件」，上传电子版的产品画册文件（推荐pdf格式），直接生成文件码。</div>";
+		waibHtml+="<div style=\"margin-top:20px;\">方式二：使用辰麒二维码「内容编辑器」，可自由插入文字、图片、音视频等，生成二维码。</div>";
+		waibHtml+="<div style=\"margin-top:20px;\">";
+		waibHtml+="<strong style=\"font-size: 16px;\">第二步：美化二维码，上传企业LOGO，更具视觉吸引力</strong>";
+		waibHtml+="</div>";
+		waibHtml+="<div style=\"margin-top:20px;\">企业LOGO图片大小建议为128px左右的的高清正方形图片，过大或过小都可能影响印刷效果。</div>";
+		waibHtml+="<div style=\"margin-top:20px;\">";
+		waibHtml+="<strong style=\"font-size: 16px;\">第三步：下载二维码图片，交给广告公司，排版到印刷品的设计稿中</strong>";
+		waibHtml+="</div>";
+
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto;color:#fff;background-color:#4CAF50;border-radius:3px;\">多媒体资料</div>";
+		ctiuHtml+="";
+		ctiuHtml+="";
+		ctiuHtml+="";
+	}
+	else if(id==1381){
 		dcHtml+="<div style=\"font-size: 32px;font-weight: 600;\">商品标签<span style=\"position: relative;top: -2px;\">|</span>二维码应用教程</div>";
 		dcHtml+="<div style=\"font-size: 16px;color: #666;padding: 16px;margin-top:10px;background: #F7F9F7;\">";
 		dcHtml+="<div style=\"line-height:30px;\">将二维码附在酒类、茶叶、美容保健品等各类商品外包装或标签中，消费者扫码即可查看商品的价格、基本信息、使用方式、厂家联系方式等内容，在有限的标签中展示更丰富的信息。</div>";
@@ -62,7 +120,7 @@ $(function(){
 		waibHtml+="<div style=\"float:left;margin-left: 181px;margin-top: 8px;font-weight: bold;color: rgba(0,0,0,.87);\">扫码体验完整案例效果</div>";
 		waibHtml+="</div>";
 		waibHtml+="<div style=\"margin-top:20px;\">";
-		waibHtml+="<strong style=\"font-size: 18px;\">操作教程</strong>";
+		waibHtml+="<strong style=\"font-size: 18px;\">制作教程</strong>";
 		waibHtml+="</div>";
 		waibHtml+="<div style=\"margin-top:20px;\">";
 		waibHtml+="<strong style=\"font-size: 16px;\">第一步：编辑二维码内容</strong>";
@@ -85,11 +143,10 @@ $(function(){
 		waibHtml+="<strong>其他工具排版软件：</strong>如果你已经采购标签机，也可导出数据，使用其他标签排版软件进行排版打印。";
 		waibHtml+="</div>";
 
-		ctiuHtml+="<strong style=\"font-size: 18px;color: #666;font-weight: 600;\">使用案例模板，快速新建</strong>";
-		ctiuHtml+="<div style="width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;">红酒标签</div>";
-		ctiuHtml+="<div style="width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;">白酒标签</div>";
-		ctiuHtml+="<div style="width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;">家纺标签</div>";
-		ctiuHtml+="<div style="width:216px;height:36px;line-height:36px;margin:30px auto;color:#fff;background-color:#4CAF50;border-radius:3px;">艺术品标签</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;\">红酒标签</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;\">白酒标签</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;\">家纺标签</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto;color:#fff;background-color:#4CAF50;border-radius:3px;\">艺术品标签</div>";
 		ctiuHtml+="";
 		ctiuHtml+="";
 		ctiuHtml+="";
@@ -146,6 +203,9 @@ $(function(){
 	
   </div>
 
+  <div style="text-align:center;margin-top:30px;">
+	<strong style="font-size: 18px;color: #666;font-weight: 600;">使用案例模板，快速新建</strong>
+  </div>
   <div id="create-tpl-item-ul" style="width:90%;margin:auto;text-align:center;">
 	
   </div>

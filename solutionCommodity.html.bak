@@ -141,13 +141,13 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
 		<img src="qlqrcode_files/images/2019/07/product-img-new1@2x.png">
 		<div class="goods-item-title">商品展示二维码</div>
 		<div class="goods-item-desc">消费者扫码查询商品统一标价充分利用包装版面，传递品牌价值</div>
-		<div class="goods-item-link-box"><a href="detail.html">应用教程</a></div>
+		<div class="goods-item-link-box"><a href="detail.html?id=1381">应用教程</a></div>
 	  </div>
 	  <div class="good-scene-item" style="margin-top:-520px;margin-left:440px;">
 		<img src="qlqrcode_files/images/2019/07/product-jfdhjp.png">
 		<div class="goods-item-title">积分兑换奖品二维码</div>
 		<div class="goods-item-desc">扫码即可领取店铺积分，累积兑换精美礼品，培养忠实客户群</div>
-		<div class="goods-item-link-box"><a href="detail.html">应用教程</a></div>
+		<div class="goods-item-link-box"><a href="detail.html?id=1380">应用教程</a></div>
 	  </div>
 	  <div class="good-scene-item" style="margin-top:30px;">
 		<img src="qlqrcode_files/images/2019/07/product-pic-new1@2x.png">
