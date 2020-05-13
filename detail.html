@@ -18,6 +18,7 @@ function getQueryString(name){
 $(function(){
 	var dcHtml="";
 	var waibHtml="";
+	var ctiuHtml="";
 	var id=getQueryString("id");
 	if(id==1381){
 		dcHtml+="<div style=\"font-size: 32px;font-weight: 600;\">商品标签<span style=\"position: relative;top: -2px;\">|</span>二维码应用教程</div>";
@@ -83,9 +84,19 @@ $(function(){
 		waibHtml+="<div style=\"line-height:30px;margin-top:20px;margin-bottom:50px;\">";
 		waibHtml+="<strong>其他工具排版软件：</strong>如果你已经采购标签机，也可导出数据，使用其他标签排版软件进行排版打印。";
 		waibHtml+="</div>";
+
+		ctiuHtml+="<strong style=\"font-size: 18px;color: #666;font-weight: 600;\">使用案例模板，快速新建</strong>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;\">红酒标签</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;\">白酒标签</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;\">家纺标签</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto;color:#fff;background-color:#4CAF50;border-radius:3px;\">艺术品标签</div>";
+		ctiuHtml+="";
+		ctiuHtml+="";
+		ctiuHtml+="";
 	}
 	$("#detail-content").html(dcHtml);
 	$("#wordpress_article_info_box").html(waibHtml);
+	$("#create-tpl-item-ul").html(ctiuHtml);
 });
 </script>
   <style>
@@ -135,6 +146,9 @@ $(function(){
 	
   </div>
 
+  <div id="create-tpl-item-ul" style="width:90%;margin:auto;text-align:center;">
+	
+  </div>
   
 	<div style="width: 100%;height: auto;background-color: #1F232A;padding:1px;">
 		<div style="margin-top:30px;margin-left: 50px;margin-bottom:30px;">
