@@ -144,7 +144,7 @@ $(function(){
 		waibHtml+="<div style=\"margin-top:20px;\">二维码必须贴在平直面上，贴在曲面上会影响识别，如果样品表面平整光滑，可直接黏贴。</div>";
 		waibHtml+="<div style=\"margin-top:20px;\">你也可以定制空白的吊牌、卡牌作为标签基座，在设计时留出区域用于二维码标签的黏贴。</div>";
 
-		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto;color:#fff;background-color:#4CAF50;border-radius:3px;\">多媒体资料</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto;color:#fff;background-color:#4CAF50;border-radius:3px;\">建筑施工</div>";
 	}
 	else if(id==1380){
 		dcHtml+="<div style=\"font-size: 32px;font-weight: 600;\">多媒体资料<span style=\"position: relative;top: -2px;\">|</span>二维码应用教程</div>";
@@ -315,8 +315,8 @@ $(function(){
 	<div class="navbar_div">
 		<div class="sy_div"><a href="index.html">首页</a></div>
 		<div class="almb_div"><a href="solutionCommodity.html">案例模板</a></div>
-		<div class="ewmscq_div">二维码生成器</div>
-		<div class="dzjg_div"><a href="price.html">定制价格</a></div>
+		<div class="ewmscq_div">二维码生成</div>
+		<div class="dzjg_div"><a href="price.html">价格</a></div>
 	</div>
   </div>
   <div id="detail-content" style="width:90%;margin:60px auto 0;">

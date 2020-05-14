@@ -7,13 +7,21 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <title>辰麒二维码追溯系统，一物一码，智能追溯</title>
-<script type="text/javascript" src="qrcode/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../qrcode/js/jquery-3.1.1.min.js"></script>
 <script type="text/javascript">
 $(function(){
 var sww=$("#swiper-wrapper").css("width");
 sww=sww.substring(0,sww.length-2);
 $("#swiper-wrapper").css("height",sww*633/1900+"px");
 });
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2d58e7ee2c6bd4eb74b0893c5a3a92a4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 </script>
 <style>
 body{
@@ -35,16 +43,16 @@ body{
 	width: 60px;height: 60px;
 }
 .navbar_div .almb_div{
-	width: 130px;height: 20px;margin-top:-60px;margin-left:65px;
+	width: 130px;height: 60px;margin-top:-60px;margin-left:70px;
 }
 .navbar_div .ewmscq_div{
-	width: 200px;height: 20px;margin-top:-20px;margin-left:200px;
+	width: 160px;height: 60px;margin-top:-60px;margin-left:200px;
 }
 .navbar_div .dzjg_div{
-	width: 130px;height: 20px;margin-top:-20px;margin-left:405px;
+	width: 70px;height: 60px;margin-top:-60px;margin-left:370px;
 }
-.navbar_div .bz_div{
-	width: 60px;height: 20px;margin-top:-20px;margin-left:540px;
+.navbar_div .dl_div{
+	width: 80px;height: 60px;line-height: 60px;text-align:center;margin-top:-60px;margin-left:450px;background-color: #00a3ff;
 }
 </style>
  </head>
@@ -54,9 +62,9 @@ body{
 	<div class="navbar_div">
 		<div class="sy_div"><a href="index.html">首页</a></div>
 		<div class="almb_div"><a href="solutionCommodity.html">案例模板</a></div>
-		<div class="ewmscq_div"><a>二维码生成器</a></div>
-		<div class="dzjg_div"><a href="price.html">定制价格</a></div>
-		<div class="bz_div"><a>帮助</a></div>
+		<div class="ewmscq_div"><a>二维码生成</a></div>
+		<div class="dzjg_div"><a href="price.html">价格</a></div>
+		<div class="dl_div"><a>登录</a></div>
 	</div>
   </div>
   <div class="swiper-wrapper" id="swiper-wrapper" style="width: 100%;height: 300px;background:url(qrcode/ig/lunbo3.png) no-repeat;background-size:100% 100%;">
