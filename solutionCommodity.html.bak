@@ -165,7 +165,7 @@ $("#business-info-bg").css("height",bibw*680/2880+"px");
 		<img src="qlqrcode_files/images/2019/07/ypjs-new@2x.png">
 		<div class="goods-item-title">建筑施工二维码</div>
 		<div class="goods-item-desc">查看样品信息和报价，快速选款订货多媒体展示实际使用效果，促进销量</div>
-		<div class="goods-item-link-box"><a href="detail.html">应用教程</a></div>
+		<div class="goods-item-link-box"><a href="detail.html?id=1372">应用教程</a></div>
 	  </div>
 	  <div class="good-scene-item" style="margin-top:-520px;margin-left:440px;">
 		<img src="qlqrcode_files/images/2019/07/product-jiafang.png">
