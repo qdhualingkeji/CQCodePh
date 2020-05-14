@@ -22,6 +22,20 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+
+function goPage(flag){
+	switch(flag){
+	case "login":
+		location.href="http://www.qrcodesy.com:8080/GoodsPublic/merchant/phone/goCQCodePhLogin?from=cqCodePh";
+		break;
+	case "solutionCommodity":
+		location.href="solutionCommodity.html";
+		break;
+	case "price":
+		location.href="price.html";
+		break;
+	}
+}
 </script>
 <style>
 body{
@@ -62,7 +76,7 @@ body{
 	<div class="navbar_div">
 		<div class="sy_div"><a href="index.html">首页</a></div>
 		<div class="almb_div"><a href="solutionCommodity.html">案例模板</a></div>
-		<div class="ewmscq_div"><a>二维码生成</a></div>
+		<div class="ewmscq_div"><a href="qrcodeCreate/text.html">二维码生成</a></div>
 		<div class="dzjg_div"><a href="price.html">价格</a></div>
 		<div class="dl_div"><a href="http://www.qrcodesy.com:8080/GoodsPublic/merchant/phone/goCQCodePhLogin?from=cqCodePh">登录</a></div>
 	</div>
@@ -106,7 +120,7 @@ body{
 	  </div>
   </div>
 
-	<div style="width:300px;height:60px;line-height:60px;text-align:center;color: #00a3ff;background-color: transparent;border: solid 1px #00a3ff;margin:30px auto 0;border-radius: 3px;">
+	<div style="width:300px;height:60px;line-height:60px;text-align:center;color: #00a3ff;background-color: transparent;border: solid 1px #00a3ff;margin:30px auto 0;border-radius: 3px;" onclick="goPage('solutionCommodity')">
 		查看更多功能介绍
 	</div>
 
@@ -134,9 +148,9 @@ body{
 
 		<div style="width:650px;height:60px;margin:30px auto 100px;">
 			<div style="width:300px;height:60px;line-height:60px;text-align:center;color: #fff;background-color: #00A3FF;
-		border-radius: 5px;">使用模板创建</div>
+			border-radius: 5px;" onclick="goPage('login')">使用模板创建</div>
 			<div style="width:300px;height:60px;line-height:60px;margin-top:-60px;margin-left:350px;text-align:center;color: #00A3FF;background-color: #fff;
-		border-radius: 5px;border: #00A3FF solid 2px;">自定义创建</div>
+			border-radius: 5px;border: #00A3FF solid 2px;" onclick="goPage('login')">自定义创建</div>
 		</div>
 	</div>
 
@@ -156,10 +170,14 @@ body{
 			</div>
 		</div>
 		<div style="width:650px;height:60px;margin:30px auto 100px;">
-			<div style="width:300px;height:60px;line-height:60px;text-align:center;color: #fff;background-color: #00A3FF;
-		border-radius: 5px;">管理我的二维码</div>
-			<div style="width:300px;height:60px;line-height:60px;margin-top:-60px;margin-left:350px;text-align:center;color: #00A3FF;background-color: #fff;
-		border-radius: 5px;border: #00A3FF solid 2px;">免费创建</div>
+			<a href="http://www.qrcodesy.com:8080/GoodsPublic/merchant/phone/goCQCodePhLogin?from=cqCodePh" style="text-decoration: none;">
+				<div style="width:300px;height:60px;line-height:60px;text-align:center;color: #fff;background-color: #00A3FF;
+			border-radius: 5px;" onclick="goPage('login')">管理我的二维码</div>
+			</a>
+			<a href="http://www.qrcodesy.com:8080/GoodsPublic/merchant/phone/goCQCodePhLogin?from=cqCodePh" style="text-decoration: none;">
+				<div style="width:300px;height:60px;line-height:60px;margin-top:-60px;margin-left:350px;text-align:center;color: #00A3FF;background-color: #fff;
+			border-radius: 5px;border: #00A3FF solid 2px;" onclick="goPage('login')">免费创建</div>
+			</a>
 		</div>
 	</div>
 
@@ -248,9 +266,9 @@ body{
 		<div style="width:100%;text-align:center;font-size:30px;margin-top:40px;">免费即可使用，付费获取更高功能及专享服务</div>
 		<div style="width:650px;height:60px;margin:30px auto 60px;">
 			<div style="width:300px;height:60px;line-height:60px;text-align:center;color: #fff;background-color: #00A3FF;
-		border-radius: 5px;">免费使用</div>
+			border-radius: 5px;" onclick="goPage('login')">免费使用</div>
 			<div style="width:300px;height:60px;line-height:60px;margin-top:-60px;margin-left:350px;text-align:center;color: #00A3FF;background-color: #fff;
-		border-radius: 5px;border: #00A3FF solid 2px;">查看价格</div>
+			border-radius: 5px;border: #00A3FF solid 2px;" onclick="goPage('price')">查看价格</div>
 		</div>
 	</div>
 
