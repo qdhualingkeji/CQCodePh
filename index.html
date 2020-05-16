@@ -36,6 +36,17 @@ function goPage(flag){
 		break;
 	}
 }
+
+function changeDivSide(itemName,face){
+	if(face=="front"){
+		$("#"+itemName+"Front_div").css("display","block");
+		$("#"+itemName+"Back_div").css("display","none");
+	}
+	else{
+		$("#"+itemName+"Front_div").css("display","none");
+		$("#"+itemName+"Back_div").css("display","block");
+	}
+}
 </script>
 <style>
 body{
@@ -67,6 +78,55 @@ body{
 }
 .navbar_div .dl_div{
 	width: 80px;height: 60px;line-height: 60px;text-align:center;margin-top:-60px;margin-left:450px;background-color: #00a3ff;
+}
+
+.alzxty_div{
+	width:100%;height:auto;margin:30px auto 0;color: #363636;background-color: #F9F9F9;padding:1px;
+}
+.alzxty_div .title_div{
+	width:100%;text-align:center;font-size:30px;margin-top:30px;
+}
+.alzxty_div .list_div{
+	width:860px;height:530px;margin: 30px auto 0;
+}
+.alzxty_div .list_div .itemFront_div{
+	width:200px;height:250px;text-align:center;
+}
+.alzxty_div .list_div .itemFront_div img{
+	width:200px;height:200px;
+}
+.alzxty_div .list_div .itemFront_div .text_div{
+	width:100%;height:50px;line-height:50px;color: #fff;background: #00a3ff;
+}
+.alzxty_div .list_div .itemBack_div{
+	width:200px;height:250px;text-align:center;background: #242424;display:none;
+}
+.alzxty_div .list_div .itemBack_div img{
+	width:150px;height:150px;margin:25px auto;
+}
+.alzxty_div .list_div .itemBack_div .text_div{
+	width:100%;height:50px;line-height:50px;color: #00a3ff;background: #fff;
+}
+.alzxty_div .list_div .hjFront_div,.alzxty_div .list_div .hjBack_div{
+	margin-top:-250px;margin-left:220px;
+}
+.alzxty_div .list_div .bjFront_div,.alzxty_div .list_div .bjBack_div{
+	margin-top:-250px;margin-left:440px;
+}
+.alzxty_div .list_div .jfFront_div,.alzxty_div .list_div .jfBack_div{
+	margin-top:-250px;margin-left:660px;
+}
+.alzxty_div .list_div .yspFront_div,.alzxty_div .list_div .yspBack_div{
+	margin-top:30px;margin-left:0px;
+}
+.alzxty_div .list_div .smsFront_div,.alzxty_div .list_div .smsBack_div{
+	margin-top:-250px;margin-left:220px;
+}
+.alzxty_div .list_div .dmtzlFront_div,.alzxty_div .list_div .dmtzlBack_div{
+	margin-top:-250px;margin-left:440px;
+}
+.alzxty_div .list_div .jzsgFront_div,.alzxty_div .list_div .jzsgBack_div{
+	margin-top:-250px;margin-left:660px;
 }
 </style>
  </head>
@@ -177,40 +237,79 @@ body{
 		</div>
 	</div>
 
-	<div style="width:100%;height:auto;margin:30px auto 0;color: #363636;background-color: #F9F9F9;padding:1px;">
-		<div style="width:100%;text-align:center;font-size:30px;margin-top:30px;">案例在线体验</div>
-		<div style="width:860px;height:530px;margin: 30px auto 0;">
-			  <div style="width:200px;height:250px;text-align:center;">
-				<img src="qrcode/ig/case/qrmp.png" style="width:200px;height:200px;"/>
-				<div style="width:100%;height:50px;line-height:50px;color: #fff;background: #00a3ff;">积分兑换奖品</div>
+	<div class="alzxty_div">
+		<div class="title_div">案例在线体验</div>
+		<div class="list_div">
+			  <div class="itemFront_div" id="jfdhjpFront_div" onclick="changeDivSide('jfdhjp','back')">
+				<img src="qrcode/ig/case/qrmp.png"/>
+				<div class="text_div">积分兑换奖品</div>
 			  </div>
-			  <div style="width:200px;height:250px;text-align:center;margin-top:-250px;margin-left:220px;">
-				<img src="qrcode/ig/case/qrny.png" style="width:200px;height:200px;"/>
-				<div style="width:100%;height:50px;line-height:50px;color: #fff;background: #00a3ff;">红酒</div>
+			  <div class="itemBack_div" id="jfdhjpBack_div" onclick="changeDivSide('jfdhjp','front')">
+				<img src="http://www.qrcodesy.com:8080/GoodsPublic/upload/jfdhjp/20200425173001.jpg"/>
+				<div class="text_div">扫码体验</div>
 			  </div>
-			  <div style="width:200px;height:250px;text-align:center;margin-top:-250px;margin-left:440px;">
-				<img src="qrcode/ig/case/qrsp.png" style="width:200px;height:200px;"/>
-				<div style="width:100%;height:50px;line-height:50px;color: #fff;background: #00a3ff;">白酒</div>
+
+			  <div class="itemFront_div hjFront_div" id="hjFront_div" onclick="changeDivSide('hj','back')">
+				<img src="qrcode/ig/case/qrny.png"/>
+				<div class="text_div">红酒</div>
 			  </div>
-			  <div style="width:200px;height:250px;text-align:center;margin-top:-250px;margin-left:660px;">
-				<img src="qrcode/ig/case/qrxj.png" style="width:200px;height:200px;"/>
-				<div style="width:100%;height:50px;line-height:50px;color: #fff;background: #00a3ff;">家纺</div>
+			  <div class="itemBack_div hjBack_div" id="hjBack_div" onclick="changeDivSide('hj','front')">
+				<img src="qrcode/ig/case/202003090001.png"/>
+				<div class="text_div">扫码体验</div>
 			  </div>
-			  <div style="width:200px;height:250px;text-align:center;margin-top:30px;margin-left:0px;">
-				<img src="qrcode/ig/case/qrlc.png" style="width:200px;height:200px;"/>
-				<div style="width:100%;height:50px;line-height:50px;color: #fff;background: #00a3ff;">艺术品</div>
+
+			  <div class="itemFront_div bjFront_div" id="bjFront_div" onclick="changeDivSide('bj','back')">
+				<img src="qrcode/ig/case/qrsp.png"/>
+				<div class="text_div">白酒</div>
 			  </div>
-			  <div style="width:200px;height:250px;text-align:center;margin-top:-250px;margin-left:220px;">
-				<img src="qrcode/ig/case/qrxx.png" style="width:200px;height:200px;"/>
-				<div style="width:100%;height:50px;line-height:50px;color: #fff;background: #00a3ff;">说明书</div>
+			  <div class="itemBack_div bjBack_div" id="bjBack_div" onclick="changeDivSide('bj','front')">
+				<img src="http://www.qrcodesy.com:8080/GoodsPublic/upload/20200425173115.jpg"/>
+				<div class="text_div">扫码体验</div>
 			  </div>
-			  <div style="width:200px;height:250px;text-align:center;margin-top:-250px;margin-left:440px;">
-				<img src="qrcode/ig/case/qrsc.jpg" style="width:200px;height:200px;"/>
-				<div style="width:100%;height:50px;line-height:50px;color: #fff;background: #00a3ff;">多媒体资料</div>
+
+			  <div class="itemFront_div jfFront_div" id="jfFront_div" onclick="changeDivSide('jf','back')">
+				<img src="qrcode/ig/case/qrxj.png"/>
+				<div class="text_div">家纺</div>
 			  </div>
-			  <div style="width:200px;height:250px;text-align:center;margin-top:-250px;margin-left:660px;">
-				<img src="qrcode/ig/case/qrhz.png" style="width:200px;height:200px;"/>
-				<div style="width:100%;height:50px;line-height:50px;color: #fff;background: #00a3ff;">营销推广</div>
+			  <div class="itemBack_div jfBack_div" id="jfBack_div" onclick="changeDivSide('jf','front')">
+				<img src="http://www.qrcodesy.com:8080/GoodsPublic/upload/20200418160121.jpg"/>
+				<div class="text_div">扫码体验</div>
+			  </div>
+
+			  <div class="itemFront_div yspFront_div" id="yspFront_div" onclick="changeDivSide('ysp','back')">
+				<img src="qrcode/ig/case/qrlc.png"/>
+				<div class="text_div">艺术品</div>
+			  </div>
+			  <div class="itemBack_div yspBack_div" id="yspBack_div" onclick="changeDivSide('ysp','front')">
+				<img src="http://www.qrcodesy.com:8080/GoodsPublic/upload/20200418161220.jpg"/>
+				<div class="text_div">扫码体验</div>
+			  </div>
+
+			  <div class="itemFront_div smsFront_div" id="smsFront_div" onclick="changeDivSide('sms','back')">
+				<img src="qrcode/ig/case/qrxx.png"/>
+				<div class="text_div">说明书</div>
+			  </div>
+			  <div class="itemBack_div smsBack_div" id="smsBack_div" onclick="changeDivSide('sms','front')">
+				<img src="http://www.qrcodesy.com:8080/GoodsPublic/upload/20200330155851.jpg"/>
+				<div class="text_div">扫码体验</div>
+			  </div>
+
+			  <div class="itemFront_div dmtzlFront_div" id="dmtzlFront_div" onclick="changeDivSide('dmtzl','back')">
+				<img src="qrcode/ig/case/qrsc.jpg"/>
+				<div class="text_div">多媒体资料</div>
+			  </div>
+			  <div class="itemBack_div dmtzlBack_div" id="dmtzlBack_div" onclick="changeDivSide('dmtzl','front')">
+				<img src="qrcode/ig/case/202003090002.png"/>
+				<div class="text_div">扫码体验</div>
+			  </div>
+
+			  <div class="itemFront_div jzsgFront_div" id="jzsgFront_div" onclick="changeDivSide('jzsg','back')">
+				<img src="qrcode/ig/case/qrhz.png"/>
+				<div class="text_div">建筑施工</div>
+			  </div>
+			  <div class="itemBack_div jzsgBack_div" id="jzsgBack_div" onclick="changeDivSide('jzsg','front')">
+				<img src="qrcode/ig/case/202003090003.png"/>
+				<div class="text_div">扫码体验</div>
 			  </div>
 		</div>
 		<div style="width:100%;text-align:center;font-size:30px;margin-top:30px;margin-bottom:30px;">欢迎与我们沟通： 0532-55588351   15712773653</div>

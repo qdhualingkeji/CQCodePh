@@ -76,7 +76,7 @@ $(function(){
 		waibHtml+="</div>";
 		waibHtml+="<div style=\"line-height:30px;margin-top:20px;\">如果你制作了二维码不干胶想要贴在产品上，可直接黏贴在平整光滑的表面，曲面将影响二维码识别，请尽量避免。</div>";
 
-		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto;color:#fff;background-color:#4CAF50;border-radius:3px;\">产品说明书</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto;color:#fff;background-color:#4CAF50;border-radius:3px;\" onclick=\"goLogin()\">产品说明书</div>";
 	}
 	else if(id==1372){
 		dcHtml+="<div style=\"font-size: 32px;font-weight: 600;\">建筑施工<span style=\"position: relative;top: -2px;\">|</span>二维码应用教程</div>";
@@ -144,7 +144,7 @@ $(function(){
 		waibHtml+="<div style=\"margin-top:20px;\">二维码必须贴在平直面上，贴在曲面上会影响识别，如果样品表面平整光滑，可直接黏贴。</div>";
 		waibHtml+="<div style=\"margin-top:20px;\">你也可以定制空白的吊牌、卡牌作为标签基座，在设计时留出区域用于二维码标签的黏贴。</div>";
 
-		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto;color:#fff;background-color:#4CAF50;border-radius:3px;\">建筑施工</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto;color:#fff;background-color:#4CAF50;border-radius:3px;\" onclick=\"goLogin()\">建筑施工</div>";
 	}
 	else if(id==1380){
 		dcHtml+="<div style=\"font-size: 32px;font-weight: 600;\">多媒体资料<span style=\"position: relative;top: -2px;\">|</span>二维码应用教程</div>";
@@ -199,7 +199,7 @@ $(function(){
 		waibHtml+="<strong style=\"font-size: 16px;\">第三步：下载二维码图片，交给广告公司，排版到印刷品的设计稿中</strong>";
 		waibHtml+="</div>";
 
-		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto;color:#fff;background-color:#4CAF50;border-radius:3px;\">多媒体资料</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto;color:#fff;background-color:#4CAF50;border-radius:3px;\" onclick=\"goLogin()\">多媒体资料</div>";
 	}
 	else if(id==1381){
 		dcHtml+="<div style=\"font-size: 32px;font-weight: 600;\">商品标签<span style=\"position: relative;top: -2px;\">|</span>二维码应用教程</div>";
@@ -266,10 +266,10 @@ $(function(){
 		waibHtml+="<strong>其他工具排版软件：</strong>如果你已经采购标签机，也可导出数据，使用其他标签排版软件进行排版打印。";
 		waibHtml+="</div>";
 
-		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;\">红酒标签</div>";
-		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;\">白酒标签</div>";
-		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;\">家纺标签</div>";
-		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto;color:#fff;background-color:#4CAF50;border-radius:3px;\">艺术品标签</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;\" onclick=\"goLogin()\">红酒标签</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;\" onclick=\"goLogin()\">白酒标签</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto 0;color:#fff;background-color:#4CAF50;border-radius:3px;\" onclick=\"goLogin()\">家纺标签</div>";
+		ctiuHtml+="<div style=\"width:216px;height:36px;line-height:36px;margin:30px auto;color:#fff;background-color:#4CAF50;border-radius:3px;\" onclick=\"goLogin()\">艺术品标签</div>";
 		ctiuHtml+="";
 		ctiuHtml+="";
 		ctiuHtml+="";
@@ -286,6 +286,10 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+
+function goLogin(){
+	location.href="http://www.qrcodesy.com:8080/GoodsPublic/merchant/phone/goCQCodePhLogin?from=cqCodePh";
+}
 </script>
   <style>
   body{
