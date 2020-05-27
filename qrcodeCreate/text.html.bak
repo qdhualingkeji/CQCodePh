@@ -182,7 +182,7 @@ var _hmt = _hmt || [];
 		<div class="almb_div"><a href="../solutionCommodity.html">案例模板</a></div>
 		<div class="ewmscq_div"><a href="text.html">二维码生成</a></div>
 		<div class="dzjg_div"><a href="../price.html">价格</a></div>
-		<div class="dl_div"><a>登录</a></div>
+		<div class="dl_div"><a href="http://www.qrcodesy.com:8080/GoodsPublic/merchant/phone/goCQCodePhLogin?from=cqCodePh">登录</a></div>
 	</div>
   </div>
   <div style="font-size: 30px;color: #555;text-align: center;margin-top:105px;">免费二维码在线生成器</div>
