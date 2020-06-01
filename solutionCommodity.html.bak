@@ -15,6 +15,10 @@ bibw=bibw.substring(0,bibw.length-2);
 $("#business-info-bg").css("height",bibw*680/2880+"px");
 });
 
+function goDetailPage(id){
+	location.href="detail.html?id="+id;
+}
+
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -150,33 +154,33 @@ var _hmt = _hmt || [];
 
   <div class="goods-case-box">
 	  <div class="good-scene-item">
-		<img src="qlqrcode_files/images/2019/07/product-img-new1@2x.png">
-		<div class="goods-item-title">商品展示二维码</div>
-		<div class="goods-item-desc">消费者扫码查询商品统一标价充分利用包装版面，传递品牌价值</div>
+		<img src="qlqrcode_files/images/2019/07/product-img-new1@2x.png" onclick="goDetailPage(1381)">
+		<div class="goods-item-title" onclick="goDetailPage(1381)">商品展示二维码</div>
+		<div class="goods-item-desc" onclick="goDetailPage(1381)">消费者扫码查询商品统一标价充分利用包装版面，传递品牌价值</div>
 		<div class="goods-item-link-box"><a href="detail.html?id=1381">应用教程</a></div>
 	  </div>
 	  <div class="good-scene-item" style="margin-top:-520px;margin-left:440px;">
-		<img src="qlqrcode_files/images/2019/07/product-jfdhjp.png">
-		<div class="goods-item-title">积分兑换奖品二维码</div>
-		<div class="goods-item-desc">扫码即可领取店铺积分，累积兑换精美礼品，培养忠实客户群</div>
-		<div class="goods-item-link-box"><a href="detail.html">应用教程</a></div>
+		<img src="qlqrcode_files/images/2019/07/product-jfdhjp.png" onclick="goDetailPage(1382)">
+		<div class="goods-item-title" onclick="goDetailPage(1382)">积分兑换奖品二维码</div>
+		<div class="goods-item-desc" onclick="goDetailPage(1382)">扫码即可领取店铺积分，累积兑换精美礼品，培养忠实客户群</div>
+		<div class="goods-item-link-box"><a href="detail.html?id=1382">应用教程</a></div>
 	  </div>
 	  <div class="good-scene-item" style="margin-top:30px;">
-		<img src="qlqrcode_files/images/2019/07/product-pic-new1@2x.png">
-		<div class="goods-item-title">多媒体资料二维码</div>
-		<div class="goods-item-desc">扫码即可快速共享招商推广资料制作便利，内容可随时更新</div>
+		<img src="qlqrcode_files/images/2019/07/product-pic-new1@2x.png" onclick="goDetailPage(1380)">
+		<div class="goods-item-title" onclick="goDetailPage(1380)">多媒体资料二维码</div>
+		<div class="goods-item-desc" onclick="goDetailPage(1380)">扫码即可快速共享招商推广资料制作便利，内容可随时更新</div>
 		<div class="goods-item-link-box"><a href="detail.html?id=1380">应用教程</a></div>
 	  </div>
 	  <div class="good-scene-item" style="margin-top:-520px;margin-left:440px;">
-		<img src="qlqrcode_files/images/2019/07/product-sms-new1@2x.png">
-		<div class="goods-item-title">产品说明书二维码</div>
-		<div class="goods-item-desc">消费者保存便利，扫码阅读体验好代替纸质说明书，节约物料成本</div>
+		<img src="qlqrcode_files/images/2019/07/product-sms-new1@2x.png" onclick="goDetailPage(1371)">
+		<div class="goods-item-title" onclick="goDetailPage(1371)">产品说明书二维码</div>
+		<div class="goods-item-desc" onclick="goDetailPage(1371)">消费者保存便利，扫码阅读体验好代替纸质说明书，节约物料成本</div>
 		<div class="goods-item-link-box"><a href="detail.html?id=1371">应用教程</a></div>
 	  </div>
 	  <div class="good-scene-item" style="margin-top:30px;">
-		<img src="qlqrcode_files/images/2019/07/ypjs-new@2x.png">
-		<div class="goods-item-title">建筑施工二维码</div>
-		<div class="goods-item-desc">查看样品信息和报价，快速选款订货多媒体展示实际使用效果，促进销量</div>
+		<img src="qlqrcode_files/images/2019/07/ypjs-new@2x.png" onclick="goDetailPage(1372)">
+		<div class="goods-item-title" onclick="goDetailPage(1372)">建筑施工二维码</div>
+		<div class="goods-item-desc" onclick="goDetailPage(1372)">查看样品信息和报价，快速选款订货多媒体展示实际使用效果，促进销量</div>
 		<div class="goods-item-link-box"><a href="detail.html?id=1372">应用教程</a></div>
 	  </div>
 	  <div class="good-scene-item" style="margin-top:-520px;margin-left:440px;">
