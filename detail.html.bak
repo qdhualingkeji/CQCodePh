@@ -131,7 +131,7 @@ $(function(){
 		waibHtml+="<div style=\"margin-top:20px;\">";
 		waibHtml+="<strong style=\"font-size: 16px;\">第二步：批量创建样品二维码</strong>";
 		waibHtml+="</div>";
-		waibHtml+="<div style=\"margin-top:20px;\">通常你需要制作大量样品标签二维码，可以将做好的单个二维码转换成批量模板。</div>";
+		waibHtml+="<div style=\"margin-top:20px;\">通常你需要制作大量样品标签二维码，可以将做好的单个二维码转换成批量模版。</div>";
 		waibHtml+="<div style=\"margin-top:20px;\">然后将样品信息整理成excel表格，一次性导入就可快速完成批量二维码的制作，提升制作效率。</div>";
 		waibHtml+="<div style=\"margin-top:20px;\">";
 		waibHtml+="<strong style=\"font-size: 16px;\">第三步：下载打印不干胶标签</strong>";
@@ -248,7 +248,7 @@ $(function(){
 		waibHtml+="<div style=\"margin-top:20px;\">";
 		waibHtml+="<strong style=\"font-size: 16px;\">第一步：编辑二维码内容</strong>";
 		waibHtml+="</div>";
-		waibHtml+="<div style=\"margin-top:20px;\">在页面右侧选择合适的案例模板，根据自己的需求进行修改并保存，快速生成二维码。</div>";
+		waibHtml+="<div style=\"margin-top:20px;\">在页面右侧选择合适的案例模版，根据自己的需求进行修改并保存，快速生成二维码。</div>";
 		waibHtml+="<div style=\"margin-top:20px;\">";
 		waibHtml+="<strong style=\"font-size: 16px;\">第二步：美化二维码</strong>";
 		waibHtml+="</div>";
@@ -377,7 +377,7 @@ function goLogin(){
 	<a class="logo_a"></a>
 	<div class="navbar_div">
 		<div class="sy_div"><a href="index.html">首页</a></div>
-		<div class="almb_div"><a href="solutionCommodity.html">案例模板</a></div>
+		<div class="almb_div"><a href="solutionCommodity.html">案例模版</a></div>
 		<div class="ewmscq_div"><a href="qrcodeCreate/text.html">二维码生成</a></div>
 		<div class="dzjg_div"><a href="price.html">价格</a></div>
 		<div class="dl_div"><a href="http://www.qrcodesy.com:8080/GoodsPublic/merchant/phone/goCQCodePhLogin?from=cqCodePh">登录</a></div>
@@ -391,7 +391,7 @@ function goLogin(){
   </div>
 
   <div style="text-align:center;margin-top:30px;">
-	<strong style="font-size: 18px;color: #666;font-weight: 600;">使用案例模板，快速新建</strong>
+	<strong style="font-size: 18px;color: #666;font-weight: 600;">使用案例模版，快速新建</strong>
   </div>
   <div id="create-tpl-item-ul" style="width:90%;margin:auto;text-align:center;">
 	
